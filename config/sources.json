@@ -1,0 +1,109 @@
+{
+  "categories": {
+    "finance_business": {
+      "name": "Finance/Business",
+      "sources": [
+        {
+          "name": "Reuters Business",
+          "type": "rss",
+          "url": "https://feeds.reuters.com/reuters/businessNews"
+        },
+        {
+          "name": "Bloomberg",
+          "type": "rss",
+          "url": "https://feeds.bloomberg.com/markets/news.rss"
+        },
+        {
+          "name": "Financial Times",
+          "type": "rss",
+          "url": "https://www.ft.com/rss/home"
+        }
+      ]
+    },
+    "ai_technology": {
+      "name": "AI & Technology",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "type": "rss",
+          "url": "https://techcrunch.com/feed/"
+        },
+        {
+          "name": "Ars Technica",
+          "type": "rss",
+          "url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
+        },
+        {
+          "name": "Wired",
+          "type": "rss",
+          "url": "https://www.wired.com/feed/rss"
+        }
+      ]
+    },
+    "pop_culture": {
+      "name": "Pop Culture",
+      "sources": [
+        {
+          "name": "Entertainment Weekly",
+          "type": "rss",
+          "url": "https://ew.com/feed/"
+        },
+        {
+          "name": "Variety",
+          "type": "rss",
+          "url": "https://variety.com/feed/"
+        },
+        {
+          "name": "Rolling Stone",
+          "type": "rss",
+          "url": "https://www.rollingstone.com/feed/"
+        }
+      ]
+    },
+    "politics": {
+      "name": "Politics",
+      "sources": [
+        {
+          "name": "Reuters Politics",
+          "type": "rss",
+          "url": "https://feeds.reuters.com/Reuters/PoliticsNews"
+        },
+        {
+          "name": "Politico",
+          "type": "rss",
+          "url": "https://www.politico.com/rss/politicopicks.xml"
+        },
+        {
+          "name": "The Hill",
+          "type": "rss",
+          "url": "https://thehill.com/feed/"
+        }
+      ]
+    },
+    "global_events": {
+      "name": "Global Events",
+      "sources": [
+        {
+          "name": "Reuters World",
+          "type": "rss",
+          "url": "https://feeds.reuters.com/Reuters/worldNews"
+        },
+        {
+          "name": "BBC World",
+          "type": "rss",
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+        },
+        {
+          "name": "Al Jazeera",
+          "type": "rss",
+          "url": "https://www.aljazeera.com/xml/rss/all.xml"
+        }
+      ]
+    }
+  },
+  "settings": {
+    "max_articles_per_source": 5,
+    "max_articles_per_category": 10,
+    "fetch_timeout_seconds": 30
+  }
+}

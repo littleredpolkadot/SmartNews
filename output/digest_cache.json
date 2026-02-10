@@ -1,0 +1,238 @@
+{
+  "data": {
+    "finance_business": {
+      "name": "Finance/Business",
+      "summary": "Here's a 2-3 paragraph summary of today's finance and business news:\n\nThe US government appears close to reaching an immigration deal with Democrats, which could avert a potential government shutdown. However, the recent crackdown on immigrants has already generated significant revenue for certain companies, including Palantir and Deloitte, which have benefited from increased spending by government agencies. The Trump administration's immigration policies have also led to concerns about access to prisons, as US plans to draw down ICE operations in Minnesota amid local outcry.\n\nIn other news, the global economy took a hit after tech woes triggered a global selloff, with EM assets particularly affected. The market decline was exacerbated by Microsoft's recent announcement of significant spending on artificial intelligence (AI), which unnerved investors and led to a sell-off in US tech stocks, with the Nasdaq falling over 2% and the S&P 500 weakening by 1.2%. Meanwhile, gold prices have also fallen, retreating from a sudden selloff after breaking through $5,500.\n\nIn related news, there are concerns about the safety of uranium sourcing in Niger, following an attack on a facility that processes the mineral. Additionally, elite college finance clubs are playing a key role in shaping young professionals' paths to Wall Street, with early recruiting for careers in banking forcing candidates to make significant choices at a young age.",
+      "articles": [
+        {
+          "title": "Trump, Democrats Close to Immigration Deal to Avert Shutdown",
+          "url": "https://www.bloomberg.com/news/articles/2026-01-29/trump-democrats-make-some-progress-in-talks-to-avert-shutdown",
+          "source": "Bloomberg",
+          "published_at": "January 29, 2026",
+          "summary": "Please provide the full text of the news article so I can summarize it for you.",
+          "relevance_score": 7
+        },
+        {
+          "title": "Companies reap $22bn from Trump\u2019s immigration crackdown",
+          "url": "https://www.ft.com/content/c74170d3-237d-459c-8642-bfd71530897d",
+          "source": "Financial Times",
+          "published_at": "January 29, 2026",
+          "summary": "Here is a summary of the article in 3 sentences:\n\nUS companies such as Palantir and Deloitte have reaped significant profits, estimated at $22 billion, from the implementation of Trump's immigration crackdown. The funds were spent on technology solutions, data analytics, and other services to support government agencies tasked with enforcing stricter immigration policies. The spending has provided a substantial windfall for these companies, benefiting from increased demand for their services in the wake of the administration's changes.",
+          "relevance_score": 6
+        },
+        {
+          "title": "US plans ICE drawdown in Minnesota after outcry over immigration raids",
+          "url": "https://www.ft.com/content/9b88c0bf-b86d-44ec-ac9a-e3a80af7f6ee",
+          "source": "Financial Times",
+          "published_at": "January 29, 2026",
+          "summary": "The US is planning to reduce the presence of Immigration and Customs Enforcement (ICE) agents in Minnesota following public outcry over recent immigration raids. The decision comes after ICE officials expressed a need for cooperation from local authorities, including prison access, to maintain a certain level of enforcement activity. The planned drawdown would be contingent on reaching a deal with local authorities, according to Border Tsar Tom Homan.",
+          "relevance_score": 6
+        },
+        {
+          "title": "EM Assets Take a Hit as Tech Woes Trigger Global Selloff",
+          "url": "https://www.bloomberg.com/news/articles/2026-01-29/emerging-market-assets-pause-as-dollar-steadies-after-fed-hold",
+          "source": "Bloomberg",
+          "published_at": "January 29, 2026",
+          "summary": "Unfortunately, I don't see the actual news article. Could you please provide the text of the article so I can summarize it for you in 2-3 concise sentences?",
+          "relevance_score": 6
+        },
+        {
+          "title": "\u2018I wouldn\u2019t dare take these drugs\u2019: how China supplies untested peptides to the west",
+          "url": "https://www.ft.com/content/b15407bd-7b86-45c3-9780-0c92117ccbfb",
+          "source": "Financial Times",
+          "published_at": "January 29, 2026",
+          "summary": "Here is a summary of the article in 3 sentences:\n\nChina has been supplying untested peptides to Western countries, with many being marketed as treatments for various health issues such as weight loss and improved sleep. These peptides are often injected into the body and claim to offer a range of benefits, but their safety and efficacy have not been thoroughly tested. The demand for these substances is driven by the success of existing weight-loss drugs, leading to an influx of unregulated compounds being sold globally.",
+          "relevance_score": 6
+        }
+      ]
+    },
+    "ai_technology": {
+      "name": "AI & Technology",
+      "summary": "Here is a 2-3 paragraph summary of today's AI & Technology news:\n\nNvidia has reportedly secured approval from Beijing to sell hundreds of thousands of its H200 chips to Chinese AI companies, marking a significant shift in US tech policy. This development marks the culmination of Nvidia's campaign to expand its presence in the lucrative Chinese market.\n\nMeanwhile, India is playing a crucial role in shaping Google's approach to AI in education, with the country boasting the highest global usage of Gemini for learning. Google is leveraging this expertise to develop more effective AI solutions for educational institutions worldwide.\n\nIn other news, Anthropic has launched an AI lab called Flapping Airplanes, which some analysts believe holds the key to building a better AI assistant. Additionally, Tesla's energy storage business is growing at a rapid pace, while Apple has introduced a new security feature that limits cell networks from collecting precise location data, providing users with greater privacy and protection.",
+      "articles": [
+        {
+          "title": "Nvidia\u2019s Campaign to Sell AI Chips to China Finally Pays Off",
+          "url": "https://www.wired.com/story/made-in-china-china-nvidia-h200-beijing-approval/",
+          "source": "Wired",
+          "published_at": "January 29, 2026",
+          "summary": "Beijing has approved the sale of hundreds of thousands of Nvidia H200 chips to Chinese AI companies, marking a significant breakthrough for the US tech giant's efforts to expand its business in China. This approval comes after a period of diplomatic tension between the two countries and represents a shift in US tech policy towards greater cooperation with China. The deal is seen as a major victory for Nvidia's campaign to sell its AI chips to Chinese companies.",
+          "relevance_score": 8
+        },
+        {
+          "title": "India is teaching Google how AI in education can scale",
+          "url": "https://techcrunch.com/2026/01/29/india-is-teaching-google-how-ai-in-education-can-scale/",
+          "source": "TechCrunch",
+          "published_at": "January 29, 2026",
+          "summary": "India has become a crucial market for Google, with the country having the highest global usage of its Gemini AI tool for educational purposes. This has led Google to develop its approach to integrating AI in education, leveraging insights from India's experiences. As a result, India is playing a key role in shaping Google's strategy on this front.",
+          "relevance_score": 6
+        },
+        {
+          "title": "Trump Admin's Plans for $500 Million USIP Building May Violate Court Order, Say Former Workers",
+          "url": "https://www.wired.com/story/trump-admins-plans-for-dollar500-million-usip-building-may-violate-court-order-say-former-workers/",
+          "source": "Wired",
+          "published_at": "January 29, 2026",
+          "summary": "The State Department is set to take control of a $500 million US Institute of Peace (USIP) building in Washington D.C., sparking concerns that it may violate a court order. Former USIP employees claim the building was seized and is being handed over for use by Donald Trump's \"Board of Peace,\" which they say has no official status. The move appears to disregard the court's previous ruling on the matter.",
+          "relevance_score": 6
+        },
+        {
+          "title": "Flapping Airplanes and the promise of research-driven AI",
+          "url": "https://techcrunch.com/2026/01/29/flapping-airplanes-and-the-promise-of-research-driven-ai/",
+          "source": "TechCrunch",
+          "published_at": "January 29, 2026",
+          "summary": "Unfortunately, there is no article to summarize. The text you provided appears to be a snippet from a news article about the launch of a new AI lab called \"Flapping Airplanes\", but it doesn't contain any actual content to summarize. If you provide the full article, I'd be happy to help!",
+          "relevance_score": 4
+        },
+        {
+          "title": "Does Anthropic believe its AI is conscious, or is that just what it wants Claude to think?",
+          "url": "https://arstechnica.com/information-technology/2026/01/does-anthropic-believe-its-ai-is-conscious-or-is-that-just-what-it-wants-claude-to-think/",
+          "source": "Ars Technica",
+          "published_at": "January 29, 2026",
+          "summary": "Anthropic, a company behind an AI assistant named Claude, has released a 30,000-word document outlining its vision for the AI's behavior, which surprisingly assumes Claude has emotions and desires similar to those of humans. The document, dubbed \"Claude's Constitution,\" takes on an anthropomorphic tone that raises questions about whether Anthropic truly believes its AI is conscious or if it's just projecting a certain image. The company's intentions remain unclear, sparking debate among experts about the implications of this approach.",
+          "relevance_score": 4
+        }
+      ]
+    },
+    "pop_culture": {
+      "name": "Pop Culture",
+      "summary": "Here is a 2-3 paragraph summary of today's Pop Culture news:\n\nThe Library of Congress has added 25 films to its National Film Registry, including cult classics like \"Clueless\" and \"Inception\", as well as critically acclaimed dramas like \"Philadelphia\" and \"The Grand Budapest Hotel\". The selections were chosen for their cultural, historical, or aesthetic significance, ensuring that these iconic films are preserved for future generations.\n\nMeanwhile, public television stations across the US are getting a boost thanks to a surprise windfall from the auction of Bob Ross paintings. After President Trump's administration cut federal funding for public TV, donors stepped in with $1.2 million, which will help support programs like PBS and NPR.\n\nIn other news, Critical Role star Matthew Mercer sat down with Dropout host Brennan Lee Mulligan for an interview about the rise of Dungeons & Dragons to mainstream popularity, while Nicki Minaj bravely spoke out against Donald Trump, sharing a photo of her \"Trump Gold Card\" on social media. Other highlights include the upcoming release date for Mahesh Babu's epic adventure film \"Varanasi\", the nomination of the Dalai Lama for his first Grammy Award, and Ari Emanuel's forthcoming memoir \"Roll the Calls\".",
+      "articles": [
+        {
+          "title": "\u2018Clueless,\u2019 \u2018Inception,\u2019 \u2018The Incredible\u2019 Join the Library of Congress\u2019 Film Registry",
+          "url": "https://www.rollingstone.com/tv-movies/tv-movie-news/library-of-congress-film-registry-2026-1235506410/",
+          "source": "Rolling Stone",
+          "published_at": "January 29, 2026",
+          "summary": "The Library of Congress has added 25 films to its National Film Registry, including \"Clueless,\" \"Inception,\" and \"The Incredible Hulk.\" These iconic movies were chosen for their cultural significance and historical importance. The registry aims to preserve the nation's cinematic heritage for future generations.",
+          "relevance_score": 6
+        },
+        {
+          "title": "Bob Ross Paintings Fetch $1.2 Million for Public TV After Trump Axes Federal Funding",
+          "url": "https://www.rollingstone.com/culture/culture-news/bob-ross-paintings-1-2-million-public-tv-trump-cuts-funding-1235506724/",
+          "source": "Rolling Stone",
+          "published_at": "January 29, 2026",
+          "summary": "Bob Ross's paintings, which were initially sold at a reduced price to raise funds for public TV after President Trump cut federal funding, have unexpectedly fetched $1.2 million. The sale of the artworks, created by the late PBS host, will help support public television stations nationwide struggling due to funding cuts.",
+          "relevance_score": 6
+        },
+        {
+          "title": "Thessaloniki Documentary Festival\u2019s Industry Arm Agora Unveils Lineup of Projects (EXCLUSIVE)",
+          "url": "https://variety.com/2026/film/global/thessaloniki-documentary-festival-agora-lineup-1236644398/",
+          "source": "Variety",
+          "published_at": "January 29, 2026",
+          "summary": "Here is a summary of the article in 2-3 sentences:\n\nThe Agora arm of the Thessaloniki Documentary Festival has unveiled its lineup of projects, featuring 14 documentary initiatives focused on Southeastern Europe. The event, taking place from March 8-12, aims to promote networking and co-production opportunities for the film industry. Around 500 professionals are expected to attend this year's Agora events.",
+          "relevance_score": 4
+        },
+        {
+          "title": "Matthew Mercer and Brennan Lee Mulligan Interview Each Other on \u2018Dimension 20,\u2019 Critical Role and D&D\u2019s Mainstream Rise: \u2018Who F\u2014ing Knew?\u2019",
+          "url": "https://variety.com/2026/tv/news/brennan-lee-mulligan-matthew-mercer-critical-role-dimension-20-1236644036/",
+          "source": "Variety",
+          "published_at": "January 29, 2026",
+          "summary": "Here is a summary of the article in 2-3 sentences:\n\nMatthew Mercer and Brennan Lee Mulligan, two prominent figures in Dungeons & Dragons (D&D), sat down for an interview on \"Dimension 20\" to discuss their careers and the mainstream rise of D&D. The two, who have played D&D since they were 10 years old, reflected on how far their hobby has come and shared stories about their journeys into the world of gaming. Their conversation provided insight into the current state of D&D's popularity and its lasting impact on popular culture.",
+          "relevance_score": 4
+        },
+        {
+          "title": "Nicki Minaj Bravely Vows to Protect World\u2019s Biggest Bully",
+          "url": "https://www.rollingstone.com/music/music-news/nicki-minaj-defends-trump-bully-1235506609/",
+          "source": "Rolling Stone",
+          "published_at": "January 29, 2026",
+          "summary": "Nicki Minaj has defended herself as a victim of bullying by claiming she is the world's biggest bully. She recently appeared with President Trump at an event and shared a photo of her \"Trump Gold Card\", which promises US residency in record time. The statement appears to be a bold move, with some interpreting it as a sign that Minaj is embracing her reputation as a provocative figure.",
+          "relevance_score": 4
+        }
+      ]
+    },
+    "politics": {
+      "name": "Politics",
+      "summary": "Here is a 2-3 paragraph summary of today's politics news:\n\nThe Trump administration has come under fire from Democrats and Republicans alike, with Senator Jacky Rosen (D-Nev.) labeling it \"out of control\" and accusing officials of acting like \"kings.\" Meanwhile, House Republicans have unveiled a sweeping elections reform bill dubbed the \"Make Elections Great Again Act,\" which includes requirements like photo ID when voting and citizenship verification to register.\n\nThe Trump administration has also faced criticism for its handling of international security agreements, particularly with regards to Greenland. Despite being challenged by European leaders, President Trump's threat to take over Greenland was reversed, but Congress must now intervene to ensure that any future Arctic security agreement is overseen and complies with international law.\n\nAdditionally, the Environmental Protection Agency (EPA) has proposed rolling back a key provision of the Biden-era \"Good Neighbor\" plan, which aimed to reduce interstate smog pollution. The proposal would limit obligations on certain upwind states to cut smog pollution from their power plants that can flow to downwind states.",
+      "articles": [
+        {
+          "title": "Rosen: Trump administration \u2018out of control,\u2019 \u2018running around like they are kings\u2019",
+          "url": "https://thehill.com/homenews/senate/5712713-trump-administration-senator-rosen-criticism/",
+          "source": "The Hill",
+          "published_at": "January 29, 2026",
+          "summary": "Senator Jacky Rosen (D-Nev.) criticized the Trump administration as \"out of control\" and accused its officials of acting with impunity. He described them as running roughshod through the country, echoing his comments to compare them to kings. The criticism was part of a broader attack on President Donald Trump's leadership style.",
+          "relevance_score": 7
+        },
+        {
+          "title": "House Republicans unveil election reform bill dubbed \u2018Make Elections Great Again Act\u2019",
+          "url": "https://thehill.com/homenews/house/5712698-house-republicans-election-reform-bill/",
+          "source": "The Hill",
+          "published_at": "January 29, 2026",
+          "summary": "Here is a summary of the news article in 2-3 sentences:\n\nHouse Republicans have unveiled the \"Make Elections Great Again Act\", a sweeping elections reform bill that aims to make voting more secure. The bill includes requirements such as photo ID at polling stations and citizenship verification for voter registration. Led by Rep. Bryan Steil, the legislation marks an evolution of election reform efforts in the US.",
+          "relevance_score": 6
+        },
+        {
+          "title": "Congress must intervene to protect NATO and Greenland",
+          "url": "https://thehill.com/opinion/national-security/5711580-nato-allies-concerned-greenland/",
+          "source": "The Hill",
+          "published_at": "January 29, 2026",
+          "summary": "Here is a 2-3 sentence summary of the article:\n\nUS President Donald Trump's initial threat to annex Greenland was later dropped after opposition from European leaders. However, concerns remain about potential future Arctic security agreements that could be unchecked by international law. Congress must now step in to ensure any such agreements are overseen and comply with global regulations.",
+          "relevance_score": 5
+        },
+        {
+          "title": "EPA proposes to limit states\u2019 \u2018Good Neighbor\u2019 obligations to reduce interstate smog pollution",
+          "url": "https://thehill.com/policy/energy-environment/5712692-epa-good-neighbor-smog/",
+          "source": "The Hill",
+          "published_at": "January 29, 2026",
+          "summary": "The EPA has proposed a rollback of the \"Good Neighbor\" regulations, which aimed to reduce interstate smog pollution from power plants. The Trump administration is limiting states' obligations to cut emissions that can affect downwind states, reversing a Biden-era policy. This move seeks to ease environmental restrictions on upwind states.",
+          "relevance_score": 4
+        },
+        {
+          "title": "Nicki Minaj says she got \u2018Gold Trump card free of charge\u2019 after praising president",
+          "url": "https://thehill.com/blogs/in-the-know/5712660-nicki-minaj-donald-trump-gold-card/",
+          "source": "The Hill",
+          "published_at": "January 29, 2026",
+          "summary": "Here is a 3-sentence summary of the news article:\n\nNicki Minaj claimed to have received a \"gold Trump card\" from President Trump hours after praising him during an event. The immigration card, featuring Trump's face, was posted by Minaj on social platform X with a casual caption. Minaj's comments sparked speculation about whether she actually received the card as a gift or if it was part of her performance.",
+          "relevance_score": 2
+        }
+      ]
+    },
+    "global_events": {
+      "name": "Global Events",
+      "summary": "Here is a 2-3 paragraph summary of today's Global Events news:\n\nTensions between Iran and the international community escalated as the European Union added Iran's Revolutionary Guards to its terrorist list. This move was met with EU foreign policy chief Kaja Kallas' statement that it was a response to Tehran's deadly crackdown on protesters. The development comes amid heightened tensions between Washington and Tehran, with some experts warning of possible outcomes ranging from regime change to retaliation in the event of a US strike.\n\nMeanwhile, in the United States, lawmakers are pushing for measures to address recent mass shootings. Democrats are advocating for removing funding for the Department of Homeland Security unless new safety protocols are implemented. The issue has become a pressing concern, with the country experiencing a surge in gun violence recently.\n\nElsewhere, violent incidents continue to plague countries around the world. In Niger's capital, heavy gunfire and blasts were reported near an airport that houses an air force base, just 10km from the presidential palace. In entertainment news, rapper Nicki Minaj has publicly declared her admiration for US President Donald Trump, while musician Bruce Springsteen voiced his opposition to ICE policies amidst controversy over the use of a gold card visa.",
+      "articles": [
+        {
+          "title": "EU adds Iran's Revolutionary Guards to terrorist list",
+          "url": "https://www.bbc.com/news/articles/c20gypw8enjo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "published_at": "January 29, 2026",
+          "summary": "Here is a summary of the article in 2-3 sentences:\n\nThe European Union has added Iran's Revolutionary Guard Corps (IRGC) to its list of terrorist organizations. This move was made in response to Tehran's recent crackdown on protesters, according to EU foreign policy chief Kaja Kallas. The designation aims to limit the IRGC's ability to access European markets and finance.",
+          "relevance_score": 7
+        },
+        {
+          "title": "What could happen if the US strikes Iran? Here are seven scenarios",
+          "url": "https://www.bbc.com/news/articles/ce3kenge1k9o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "published_at": "January 29, 2026",
+          "summary": "Unfortunately, you haven't provided the full text of the news article. Could you please paste the relevant section or provide more context about the article? I'll be happy to summarize it for you in 2-3 concise sentences.",
+          "relevance_score": 7
+        },
+        {
+          "title": "Talks ramp up to avert US government shutdown after Minneapolis shooting",
+          "url": "https://www.bbc.com/news/articles/cn9zp0nyvxdo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "published_at": "January 29, 2026",
+          "summary": "Here is a summary of the article in 2-3 sentences:\n\nUS lawmakers are intensifying talks to avoid a government shutdown, which could be triggered by a lack of funding. Democrats are pushing for changes at the Department of Homeland Security (DHS) if they are not satisfied with proposed measures. A recent shooting in Minneapolis has heightened tensions and fueled concerns about security protocols.",
+          "relevance_score": 6
+        },
+        {
+          "title": "Heavy gunfire and blasts heard near airport in Niger's capital",
+          "url": "https://www.bbc.com/news/articles/cvgp47neze4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "published_at": "January 29, 2026",
+          "summary": "Here is a summary of the news article in 2-3 sentences:\n\nHeavy gunfire and explosions were reported near the airport in Niamey, Niger's capital, located just 10km from the presidential palace. The airport, which houses an air force base, has been the site of the disturbances. The incident raises concerns about security and stability in the country.",
+          "relevance_score": 4
+        },
+        {
+          "title": "Nicki Minaj calls herself Trump's 'number one fan' and shows off gold card visa",
+          "url": "https://www.bbc.com/news/articles/cp87l604nx8o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "published_at": "January 29, 2026",
+          "summary": "Nicki Minaj has expressed her support for US President Donald Trump, calling herself his \"number one fan\". She showcased her affiliation by sharing a photo of a gold card visa, which is an upgraded version of a standard green card. Meanwhile, Bruce Springsteen sparked controversy by protesting the presence of Immigration and Customs Enforcement (ICE) at a concert in New Jersey.",
+          "relevance_score": 4
+        }
+      ]
+    }
+  },
+  "last_updated": "2026-01-30T14:14:12.820592",
+  "timeframe": "7d",
+  "rank_by_relevance": true,
+  "version": "1.0"
+}
