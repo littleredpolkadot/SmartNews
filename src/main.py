@@ -13,6 +13,7 @@ from src.fetchers import RSSFetcher
 from src.fetchers.base import Article
 from src.summarizers import OpenAISummarizer
 from src.summarizers.ollama_summarizer import OllamaSummarizer
+from src.summarizers.groq_summarizer import GroqSummarizer
 from src.formatters import MarkdownFormatter, HTMLFormatter
 
 
@@ -55,13 +56,19 @@ class NewsAggregator:
         self.config_path = Path(config_path)
         self.config = self._load_config()
         
-        # Use Ollama (free, local) or OpenAI (paid API)
-        if use_ollama or not os.getenv("OPENAI_API_KEY") or os.getenv("OPENAI_API_KEY") == "your_openai_api_key_here":
-            print("📦 Using Ollama (local, free) for summaries")
-            self.summarizer = OllamaSummarizer()
-        else:
+        # Priority: Groq (free cloud) > OpenAI (paid) > Ollama (local)
+        groq_key = os.getenv("GROQ_API_KEY")
+        openai_key = os.getenv("OPENAI_API_KEY")
+        
+        if groq_key and groq_key != "your_groq_api_key_here":
+            print("⚡ Using Groq (free cloud AI) for summaries")
+            self.summarizer = GroqSummarizer()
+        elif openai_key and openai_key != "your_openai_api_key_here":
             print("☁️ Using OpenAI for summaries")
             self.summarizer = OpenAISummarizer()
+        else:
+            print("📦 Using Ollama (local, free) for summaries")
+            self.summarizer = OllamaSummarizer()
         
         self.markdown_formatter = MarkdownFormatter()
         self.html_formatter = HTMLFormatter()
