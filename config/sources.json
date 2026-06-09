@@ -1,109 +1,77 @@
 {
   "categories": {
-    "finance_business": {
-      "name": "Finance/Business",
-      "sources": [
-        {
-          "name": "Reuters Business",
-          "type": "rss",
-          "url": "https://feeds.reuters.com/reuters/businessNews"
-        },
-        {
-          "name": "Bloomberg",
-          "type": "rss",
-          "url": "https://feeds.bloomberg.com/markets/news.rss"
-        },
-        {
-          "name": "Financial Times",
-          "type": "rss",
-          "url": "https://www.ft.com/rss/home"
-        }
-      ]
-    },
-    "ai_technology": {
-      "name": "AI & Technology",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "type": "rss",
-          "url": "https://techcrunch.com/feed/"
-        },
-        {
-          "name": "Ars Technica",
-          "type": "rss",
-          "url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
-        },
-        {
-          "name": "Wired",
-          "type": "rss",
-          "url": "https://www.wired.com/feed/rss"
-        }
-      ]
-    },
-    "pop_culture": {
-      "name": "Pop Culture",
-      "sources": [
-        {
-          "name": "Entertainment Weekly",
-          "type": "rss",
-          "url": "https://ew.com/feed/"
-        },
-        {
-          "name": "Variety",
-          "type": "rss",
-          "url": "https://variety.com/feed/"
-        },
-        {
-          "name": "Rolling Stone",
-          "type": "rss",
-          "url": "https://www.rollingstone.com/feed/"
-        }
-      ]
-    },
     "politics": {
       "name": "Politics",
+      "angle": "Identify the key political developments and their potential impact.",
       "sources": [
-        {
-          "name": "Reuters Politics",
-          "type": "rss",
-          "url": "https://feeds.reuters.com/Reuters/PoliticsNews"
-        },
-        {
-          "name": "Politico",
-          "type": "rss",
-          "url": "https://www.politico.com/rss/politicopicks.xml"
-        },
-        {
-          "name": "The Hill",
-          "type": "rss",
-          "url": "https://thehill.com/feed/"
-        }
+        { "name": "Google News (Reuters Politics)", "url": "https://news.google.com/rss/search?q=site:reuters.com+politics&hl=en-US&gl=US&ceid=US:en" },
+        { "name": "Politico", "url": "https://www.politico.com/rss/politicopicks.xml" },
+        { "name": "The Hill", "url": "https://thehill.com/homenews/feed/" }
       ]
     },
     "global_events": {
-      "name": "Global Events",
+      "name": "State of the World & Global Events",
+      "angle": "Summarize the most significant global events and international relations.",
       "sources": [
-        {
-          "name": "Reuters World",
-          "type": "rss",
-          "url": "https://feeds.reuters.com/Reuters/worldNews"
-        },
-        {
-          "name": "BBC World",
-          "type": "rss",
-          "url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-        },
-        {
-          "name": "Al Jazeera",
-          "type": "rss",
-          "url": "https://www.aljazeera.com/xml/rss/all.xml"
-        }
+        { "name": "BBC World News", "url": "https://feeds.bbci.co.uk/news/world/rss.xml" },
+        { "name": "NPR", "url": "https://feeds.npr.org/1001/rss.xml" }
+      ]
+    },
+    "corporate_strategy": {
+      "name": "Industry & Corporate Strategy",
+      "angle": "Analyze major corporate moves, industry trends, and strategic shifts.",
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/feed/" },
+        { "name": "CNBC", "url": "https://www.cnbc.com/id/10001147/device/rss/rss.html" }
+      ]
+    },
+    "tech_ai": {
+      "name": "Tech & AI Landscape",
+      "angle": "Highlight the most important breakthroughs and discussions in technology and AI.",
+      "sources": [
+        { "name": "Hacker News", "url": "https://news.ycombinator.com/rss" },
+        { "name": "The Verge", "url": "https://theverge.com/rss/index.xml" }
+      ]
+    },
+    "macro_markets": {
+      "name": "Global Macro & Market Trends",
+      "angle": "Report on key macroeconomic indicators and financial market trends.",
+      "sources": [
+        { "name": "The Economist", "url": "https://www.economist.com/finance-and-economics/rss.xml" },
+        { "name": "The Hill (Business)", "url": "https://thehill.com/business-a-lobbying/feed/" }
+      ]
+    },
+    "culture_shift": {
+      "name": "Culture & Digital Shift",
+      "angle": "Describe how technology and media are shaping culture and society.",
+      "sources": [
+        { "name": "Variety", "url": "https://variety.com/feed/" },
+        { "name": "Rolling Stone", "url": "https://www.rollingstone.com/feed/" }
+      ]
+    },
+    "security_governance": {
+      "name": "Security, Compliance & Governance",
+      "angle": "Summarize the latest in cybersecurity threats, data privacy, and governance.",
+      "sources": [
+        { "name": "Schneier on Security", "url": "https://www.schneier.com/feed/atom/" },
+        { "name": "EFF", "url": "https://www.eff.org/rss/updates.xml" }
+      ]
+    },
+    "applied_science": {
+      "name": "Physical Systems & Applied Science",
+      "angle": "Explain recent advancements in applied science and engineering.",
+      "sources": [
+        { "name": "Nature", "url": "https://www.nature.com/nature.xml" },
+        { "name": "IEEE Spectrum", "url": "https://spectrum.ieee.org/feeds/feed.rss" }
+      ]
+    },
+    "workplace_finance": {
+      "name": "Workplace, Labor & Personal Finance",
+      "angle": "Cover trends in the job market, labor relations, and personal finance.",
+      "sources": [
+        { "name": "KFF Health News", "url": "https://kffhealthnews.org/feed/" },
+        { "name": "SHRM", "url": "https://www.shrm.org/rss/pages/hr-news.aspx" }
       ]
     }
-  },
-  "settings": {
-    "max_articles_per_source": 5,
-    "max_articles_per_category": 10,
-    "fetch_timeout_seconds": 30
   }
 }

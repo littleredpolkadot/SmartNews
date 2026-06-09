@@ -1,0 +1,308 @@
+{
+  "politics": {
+    "name": "Politics",
+    "summary": "Intra-party rift over emerging Iran peace deal: The Trump administration's tentative deal to end the Iran war is facing fierce backlash from conservative allies and former Secretary of State Mike Pompeo, triggering aggressive White House pushback and signaling deep Republican divisions over foreign policy. Escalating security concerns in Washington: A shooting incident outside the White House has renewed focus on executive security infrastructure, while the debut of highly advanced AI models (such as GPT-5.5 and Mythos) with powerful hacking capabilities is jolting federal policymakers over cyber vulnerability.",
+    "articles": [
+      {
+        "title": "Live coverage: Trump's tentative Iran deal faces GOP criticism; Shooting at White House renews security fears",
+        "url": "https://thehill.com/homenews/administration/5893197-iran-agreement-us-concerns/",
+        "source": "The Hill",
+        "published_at": "Sun, 24 May 2026 11:52:10 +0000",
+        "summary": "President Trump on Saturday said a deal with Iran to end the war is getting closer, but a number of Republicans and other conservatives said they feared the emerging agreement was not a good one for the United States. The emerging deal is likely to take center stage on the Sunday talk shows over Mem"
+      },
+      {
+        "title": "Trump thanks Secret Service, renews call for ballroom after White House shooting",
+        "url": "https://thehill.com/homenews/administration/5893184-trump-thanks-secret-service/",
+        "source": "The Hill",
+        "published_at": "Sun, 24 May 2026 11:45:40 +0000",
+        "summary": "President Trump early Sunday thanked the Secret Service for their actions in neutralizing an armed man who exchanged shots with officers outside the White House on Saturday and argued that the incident shows the importance of the under-construction White House ballroom. \u201cThank you to our great Secre"
+      },
+      {
+        "title": "White House says ex-Secretary of State Pompeo should \u2018shut his stupid mouth\u2019 on Iran",
+        "url": "https://thehill.com/homenews/administration/5893185-trump-pompeo-iran-deal-criticism/",
+        "source": "The Hill",
+        "published_at": "Sun, 24 May 2026 11:29:10 +0000",
+        "summary": "White House Communications Director Stephen Cheung blasted former Secretary of State Mike Pompeo for criticizing a deal being negotiated by the Trump administration to end the Iran war, telling the one-time Trump ally to \u201cshut his stupid mouth.\u201d Cheung wrote that Pompeo \u201chas no idea what the f--- he"
+      },
+      {
+        "title": "What to know about the AI models that are jolting Washington",
+        "url": "https://www.politico.com/news/2026/05/24/anthropic-openai-mythos-what-to-know-00934668",
+        "source": "Politico",
+        "published_at": "Sun, 24 May 2026 06:00:00 EST",
+        "summary": "Researchers who have tested Anthropic\u2019s Mythos and OpenAI\u2019s GPT-5.5 say their hacking capabilities are a \u201cgame-changer.\u201d"
+      }
+    ]
+  },
+  "global_events": {
+    "name": "State of the World & Global Events",
+    "summary": "In Bolivia, escalating civil unrest over economic policies led to an armed ambush on a government minister\u2019s convoy during roadblock clearances, while a suspected Ebola outbreak in the Democratic Republic of Congo has claimed the lives of Red Cross volunteers. A major rescue operation successfully retrieved 24 survivors from a building collapse in the Philippines, while in the United States, lawmakers and religious groups are lobbying for $1 billion to address a critical security funding shortage for houses of worship.",
+    "articles": [
+      {
+        "title": "Religious leaders, lawmakers push for $1 billion to secure houses of worship",
+        "url": "https://www.npr.org/2026/05/24/nx-s1-5815007/religious-leaders-lawmakers-push-for-1-billion-to-secure-houses-of-worship",
+        "source": "NPR",
+        "published_at": "Sun, 24 May 2026 08:00:00 -0400",
+        "summary": "There's an effort on Capitol Hill to increase funding for the Nonprofit Security Grant Program, which awards funding to houses of worship to harden their defenses. In 2024, roughly a third of those who applied actually received funding."
+      },
+      {
+        "title": "People trapped under collapsed building in Philippines",
+        "url": "https://www.bbc.com/news/articles/cgqpklv42jeo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World News",
+        "published_at": "Sun, 24 May 2026 11:51:25 GMT",
+        "summary": "A search operation has so far rescued 24 people with no deaths reported at the site, in a city near the capital Manila."
+      },
+      {
+        "title": "Bolivian minister's convoy ambushed while overseeing roadblock clearance",
+        "url": "https://www.bbc.com/news/articles/ce3pdw1z59do?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World News",
+        "published_at": "Sun, 24 May 2026 11:42:48 GMT",
+        "summary": "Security forces were met by resistance while attempting to clear highway barriers, amid unrest over the government's economic policies."
+      },
+      {
+        "title": "Red Cross volunteers die from suspected Ebola in DR Congo",
+        "url": "https://www.bbc.com/news/articles/c759knxln0wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World News",
+        "published_at": "Sun, 24 May 2026 11:09:54 GMT",
+        "summary": "They are thought to have caught the virus before the outbreak was identified, the Red Cross says."
+      }
+    ]
+  },
+  "corporate_strategy": {
+    "name": "Industry & Corporate Strategy",
+    "summary": "Shifting Consumer & Capital Demands: Industries are adapting to major market pivots, highlighted by Gen Z driving a beverage sector shift from hard seltzers to non-carbonated drinks, and venture capitalists aggressively funding India\u2019s booming rooftop solar sector with deals like SolarSquare's potential $60 million raise. Strategic Technology Integration: Leading global brands are deploying advanced technology to address security and engagement, with tech giants (Apple, Meta, Google) introducing specialized anti-spyware modes, and Ferrari partnering with IBM to leverage AI to revolutionize the fan experience.",
+    "articles": [
+      {
+        "title": "Move over, seltzer. Non-carbonated drinks are taking the spotlight",
+        "url": "https://www.cnbc.com/2026/05/24/move-over-seltzer-non-carbonated-drinks-are-taking-the-spotlight.html",
+        "source": "CNBC",
+        "published_at": "Sun, 24 May 2026 12:00:01 GMT",
+        "summary": "Non-carbonated alcoholic drinks like Surfside and BeatBox are stealing \"share of throat\" from hard seltzers, particularly among Gen Z."
+      },
+      {
+        "title": "SolarSquare in talks to raise up to $60M as India\u2019s rooftop solar market draws major VC interest",
+        "url": "https://techcrunch.com/2026/05/23/solarsquare-in-talks-to-raise-up-to-60m-as-indias-rooftop-solar-market-draws-major-vc-interest/",
+        "source": "TechCrunch",
+        "published_at": "Sat, 23 May 2026 20:03:13 +0000",
+        "summary": "SolarSquare could be valued at up to $500 million in the financing expected to close next month."
+      },
+      {
+        "title": "These special phone and app features can help protect you from spyware",
+        "url": "https://techcrunch.com/2026/05/23/you-dont-have-to-click-anything-to-get-hacked-anymore-heres-how-to-fight-back/",
+        "source": "TechCrunch",
+        "published_at": "Sat, 23 May 2026 16:00:00 +0000",
+        "summary": "Apple, Meta, and Google offer special security modes that provide your devices more secure against targeted spyware attacks. Here are how those modes work, what they do, and how to switch them on."
+      },
+      {
+        "title": "Ferrari is using IBM\u2019s AI to create F1 superfans",
+        "url": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
+        "source": "TechCrunch",
+        "published_at": "Sat, 23 May 2026 15:08:00 +0000",
+        "summary": "IBM and Scuderia Ferrari HP take TechCrunch inside how they are redefining the fan experience."
+      }
+    ]
+  },
+  "tech_ai": {
+    "name": "Tech & AI Landscape",
+    "summary": "Internal accounts shed light on the intense governance crisis that nearly collapsed OpenAI, while emerging cybersecurity threats show hackers are actively learning to exploit AI chatbot \"personalities.\" The autonomous vehicle sector is intensifying as competitors like Nuro attempt to challenge Waymo's market dominance by leveraging \"second mover\" strategic advantages.",
+    "articles": [
+      {
+        "title": "Hackers are learning to exploit chatbot &#8216;personalities&#8217;",
+        "url": "https://www.theverge.com/column/935545/hackers-ai-chatbots",
+        "source": "The Verge",
+        "published_at": "2026-05-24T08:00:00-04:00",
+        "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on AI mischief, follow Robert Hart. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Hacking the first generation of AI chatbots was a lau"
+      },
+      {
+        "title": "Why Nuro thinks being a robotaxi \u2018second mover\u2019 gives it an advantage",
+        "url": "https://www.theverge.com/transportation/936126/nuro-robotaxi-dave-ferguson-interview-uber-lucid-waymo",
+        "source": "The Verge",
+        "published_at": "2026-05-24T07:00:00-04:00",
+        "summary": "Waymo is the undisputed leader in the robotaxi space, operating a fleet of over 3,000 driverless cars in at least 10 cities across the US. A number of companies, including Tesla, Zoox, Avride, and Motional, are racing to catch up with the Alphabet-owned firm. But what if being No. 2 was actually bet"
+      },
+      {
+        "title": "The Worlds Left to Conquer",
+        "url": "https://ludic.mataroa.blog/blog/the-worlds-left-to-conquer/",
+        "source": "Hacker News",
+        "published_at": "Sun, 24 May 2026 10:48:48 +0000",
+        "summary": "Comments"
+      },
+      {
+        "title": "Greg Brockman: Inside the 72 Hours That Almost Killed OpenAI",
+        "url": "https://fs.blog/knowledge-project-podcast/greg-brockman/",
+        "source": "Hacker News",
+        "published_at": "Sun, 24 May 2026 08:29:38 +0000",
+        "summary": "Comments"
+      }
+    ]
+  },
+  "macro_markets": {
+    "name": "Global Macro & Market Trends",
+    "summary": "Geopolitical Risk and Insurance Strain: Escalating conflict risks involving Iran are placing significant financial pressure on global insurers, with some firms already suffering heavy losses and others facing imminent exposure to rising war-related liabilities. Global Trade and Housing Indicators: China's overwhelming manufacturing success is crowding out global competitors and reshaping international trade dynamics, while the financial performance of major retailers like Home Depot serves as a key macroeconomic gauge for the health of the U.S. housing market.",
+    "articles": [
+      {
+        "title": "How should economists treat morality?",
+        "url": "https://www.economist.com/finance-and-economics/2026/05/21/how-should-economists-treat-morality",
+        "source": "The Economist",
+        "published_at": "Thu, 21 May 2026 09:27:37 +0000",
+        "summary": "Sometimes it is more than merely an exogenous constraint"
+      },
+      {
+        "title": "The other China shock",
+        "url": "https://www.economist.com/finance-and-economics/2026/05/21/the-other-china-shock",
+        "source": "The Economist",
+        "published_at": "Thu, 21 May 2026 09:25:53 +0000",
+        "summary": "Does the country\u2019s manufacturing success leave space for anyone else?"
+      },
+      {
+        "title": "The insurers on the hook for war in Iran",
+        "url": "https://www.economist.com/finance-and-economics/2026/05/21/the-insurers-on-the-hook-for-war-in-iran",
+        "source": "The Economist",
+        "published_at": "Thu, 21 May 2026 09:19:48 +0000",
+        "summary": "Some have been hammered; even those who haven\u2019t might be soon"
+      },
+      {
+        "title": "Economics lessons from Home Depot",
+        "url": "https://www.economist.com/finance-and-economics/2026/05/20/economics-lessons-from-home-depot",
+        "source": "The Economist",
+        "published_at": "Wed, 20 May 2026 18:14:46 +0000",
+        "summary": "What the world\u2019s biggest DIY store says about American housing"
+      }
+    ]
+  },
+  "culture_shift": {
+    "name": "Culture & Digital Shift",
+    "summary": "Specialized streaming platforms are accelerating the globalization of regional media, elevating genres like anime into dominant, internationally celebrated cultural forces. The intersection of digital streaming accessibility and cross-platform merchandising (such as physical-digital gaming collaborations) is transforming global sports icons into multifaceted entertainment brands that redefine fan engagement.",
+    "articles": [
+      {
+        "title": "\u2018Everytime\u2019 Review: A Grieving Family Finds a Strange Path Towards Healing in Sandra Wollner\u2019s Poised, Haunting Third Feature",
+        "url": "https://variety.com/2026/film/reviews/everytime-review-1236757812/",
+        "source": "Variety",
+        "published_at": "Sun, 24 May 2026 11:26:41 +0000",
+        "summary": "Everyone who has ever experienced serious grief knows the strange, unsettling things it can do to time: stretching it or compressing it by turns, consigning some passages of it to a black hole of memory, or sometimes just suspending it entirely. Pretty much all these possible stages and cruel tempor"
+      },
+      {
+        "title": "Where to Watch Mohamed Salah\u2019s Final Game With Liverpool Online for Free",
+        "url": "https://www.rollingstone.com/product-recommendations/streaming/where-to-watch-mohamed-salah-last-liverpool-game-for-free-stream-1235566952/",
+        "source": "Rolling Stone",
+        "published_at": "Sun, 24 May 2026 10:00:00 +0000",
+        "summary": "The soccer superstar is set to play his last match at Anfield as a member of Liverpool on Sunday, May 24"
+      },
+      {
+        "title": "Lionel Messi, Kylian Mbapp\u00e9 Among Athletes Fronting Monopoly and Panini Trading Cards World Cup Team Up",
+        "url": "https://variety.com/2026/shopping/athletes/fifa-world-cup-monopoly-deal-panini-card-game-buy-online-1236757193/",
+        "source": "Variety",
+        "published_at": "Sun, 24 May 2026 05:31:21 +0000",
+        "summary": "The merch rollout for the 2026 FIFA World Cup has started, with Hasbro unveiling two new Monopoly collaborations with the global soccer tournament. The first is a collaboration between Monopoly and popular trading card manufacturer Panini. The &#8220;Monopoly Panini Prizm: FIFA World Cup Game&#8221;"
+      },
+      {
+        "title": "\u2018My Hero Academia Final Season\u2019 Lands Top Prize at 10th Annual Crunchyroll Anime Awards",
+        "url": "https://variety.com/2026/tv/news/crunchyroll-anime-awards-winners-2026-my-hero-academia-1236757806/",
+        "source": "Variety",
+        "published_at": "Sun, 24 May 2026 05:23:07 +0000",
+        "summary": "&#8220;My Hero Academia Final Season&#8221; took home the top prize for Anime of the Year at the 10th Crunchyroll Anime Awards, held on Saturday, May 23, in Tokyo. Voice actress Sally Amaki and entertainer Jon Kabira were back for the fourth year in a row to host the event; guest presenters included"
+      }
+    ]
+  },
+  "security_governance": {
+    "name": "Security, Compliance & Governance",
+    "summary": "A contractor for the Cybersecurity and Infrastructure Security Agency (CISA) compromised federal infrastructure security by leaking sensitive AWS GovCloud credentials on a public GitHub repository. Researchers successfully utilized Anthropic's Mythos AI model to identify and exploit a critical kernel memory corruption vulnerability in Apple's M5 silicon, highlighting the growing role of AI in advanced exploit development.",
+    "articles": [
+      {
+        "title": "Friday Squid Blogging: Regulating Squid Fishing in the South Pacific",
+        "url": "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-regulating-squid-fishing-in-the-south-pacific.html",
+        "source": "Schneier on Security",
+        "published_at": "2026-05-22T21:04:16Z",
+        "summary": "The South Pacific Regional Fisheries Management Organization (SPRFMO) needs to regulate squid fishing in the South Pacific. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
+      },
+      {
+        "title": "CISA Security Leak",
+        "url": "https://www.schneier.com/blog/archives/2026/05/cisa-security-leak.html",
+        "source": "Schneier on Security",
+        "published_at": "2026-05-22T13:58:30Z",
+        "summary": "Crazy story : Until this past weekend, a contractor for the Cybersecurity &#038; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA systems. Security experts said "
+      },
+      {
+        "title": "macOS Kernel Memory Corruption Exploit",
+        "url": "https://www.schneier.com/blog/archives/2026/05/macos-kernel-memory-corruption-exploit.html",
+        "source": "Schneier on Security",
+        "published_at": "2026-05-21T16:03:37Z",
+        "summary": "A group used Anthropic&#8217;s Mythos AI model to help find a kernel memory corruption vulnerability and exploit on Apple&#8217;s M5. News article ."
+      },
+      {
+        "title": "\ud83d\udd12 A Win for Encrypted Messaging | EFFector 38.10",
+        "url": "https://www.eff.org/deeplinks/2026/05/encrypted-apple-android-texts-effector-3810",
+        "source": "EFF",
+        "published_at": "Wed, 20 May 2026 15:03:33 +0000",
+        "summary": "When it comes to keeping our texts, chats, and other digital messages safe from prying eyes, we have a powerful tool: end-to-end encryption. Used correctly, end-to-end encryption turns our conversations online into secret messages that can only be decoded by their intended recipients. In our latest "
+      }
+    ]
+  },
+  "applied_science": {
+    "name": "Physical Systems & Applied Science",
+    "summary": "Advanced semiconductor failure analysis and nanofabrication are achieving higher precision through SEM-guided, low-voltage focused ion beam (FIB) finishing techniques designed for delicate TEM lamella preparation. The evolution of physical AI and robotics is shifting focus toward smarter, intuitive control interfaces and autonomous, AI-powered systems designed to seamlessly collaborate with humans in practical environments.",
+    "articles": [
+      {
+        "title": "Developers: Get Your Medical Mobile App Verified By IEEE",
+        "url": "https://spectrum.ieee.org/medical-mobile-app-ieee-verified",
+        "source": "IEEE Spectrum",
+        "published_at": "Thu, 21 May 2026 18:00:01 +0000",
+        "summary": "Patients who use mobile applications to manage medical conditions including depression and chronic pain might assume the apps have been evaluated by regulatory agencies to be safe and effective. But that isn\u2019t necessarily the case. Most of the more than 55,000 medical apps that claim to diagnose or "
+      },
+      {
+        "title": "The Future of Physical AI Isn\u2019t Smarter Robots, It\u2019s Smarter Interfaces",
+        "url": "https://spectrum.ieee.org/wetour-robotics-physical-ai-human-interfaces",
+        "source": "IEEE Spectrum",
+        "published_at": "Thu, 21 May 2026 10:00:02 +0000",
+        "summary": "This sponsored article is brought to you by Wetour Robotics . A field technician on a wind turbine, harness clipped, both hands on a wrench, needs to send a command to the diagnostic device hanging at her belt. A logistics worker on a loading dock, gloves on, eyes on the pallet, needs to redirect a "
+      },
+      {
+        "title": "SEM-Guided Low-kV FIB Finishing for Leading-Edge Semiconductor Failure Analysis",
+        "url": "https://events.bizzabo.com/868497/home",
+        "source": "IEEE Spectrum",
+        "published_at": "Thu, 21 May 2026 10:00:02 +0000",
+        "summary": "Discover how the ZEISS Crossbeam 750 FIBSEM sets a new benchmark for precise TEM lamella prep, tomography, and advanced nanofabrication. This delivers better resolution, better SNR, larger usable FOV, and shorter acquisition times. Learn how uninterrupted FIB milling will reduce damage and rework, a"
+      },
+      {
+        "title": "Will Robotics Have a ChatGPT Moment?",
+        "url": "https://spectrum.ieee.org/robotics-ai-breakthrough",
+        "source": "IEEE Spectrum",
+        "published_at": "Wed, 20 May 2026 11:00:01 +0000",
+        "summary": "Over the next few decades, billions of autonomous, AI-powered robots will work alongside people in factories, perform tedious tasks in warehouses, care for the elderly, assist in unsafe disaster areas , deliver packages and food to our doorsteps, and eventually help out in our homes. Some will look "
+      }
+    ]
+  },
+  "workplace_finance": {
+    "name": "Workplace, Labor & Personal Finance",
+    "summary": "Labor and regulatory updates in the healthcare sector highlight ongoing discussions around licensing midwives and the economic challenges of reopening shuttered rural hospitals. Personal finance and investing trends include scrutiny of political figures purchasing pharmaceutical stocks tied to policy boosts, alongside new medical research identifying unnecessary screenings that could impact healthcare spending for older adults.",
+    "articles": [
+      {
+        "title": "Journalists Distill News on Ebola, Licensing Midwives, and California\u2019s Budget",
+        "url": "https://kffhealthnews.org/on-air/on-air-may-23-2026-ebola-midwife-licensing-gavin-newsom-california-budget-medicaid/",
+        "source": "KFF Health News",
+        "published_at": "Sat, 23 May 2026 09:00:00 +0000",
+        "summary": "KFF Health News journalists made the rounds on national or local media recently to discuss topical stories. Here\u2019s a collection of their appearances."
+      },
+      {
+        "title": "Trump Bought Stock in Eli Lilly as His Policies Gave the Drugmaker a Big Boost, Documents Show",
+        "url": "https://kffhealthnews.org/health-industry/the-week-in-brief-trump-eli-lilly-stock-pharmaceuticals/",
+        "source": "KFF Health News",
+        "published_at": "Fri, 22 May 2026 18:30:00 +0000",
+        "summary": "Get our weekly newsletter, The Week in Brief, featuring a roundup of our original coverage, Fridays at 2 p.m. ET."
+      },
+      {
+        "title": "3 Medical Routines That Older People May Not Need",
+        "url": "https://kffhealthnews.org/aging/new-old-age-colonoscopy-screenings-treatments-actinic-keratosis-levothyroxine/",
+        "source": "KFF Health News",
+        "published_at": "Fri, 22 May 2026 09:00:00 +0000",
+        "summary": "Some screenings and treatments no longer make sense for patients as they age. Researchers have just added a few more to the list."
+      },
+      {
+        "title": "Trump\u2019s $50B Rural Health Bet Meets a Healthcare Desert in North Carolina",
+        "url": "https://kffhealthnews.org/rural-health/rural-health-fund-hospital-closures-north-carolina-martin-general/",
+        "source": "KFF Health News",
+        "published_at": "Fri, 22 May 2026 09:00:00 +0000",
+        "summary": "Republicans promise that $50 billion in new health funding will help rural America. But it\u2019s not expected to aid the years-long effort in North Carolina\u2019s Martin County to reopen its only hospital."
+      }
+    ]
+  }
+}

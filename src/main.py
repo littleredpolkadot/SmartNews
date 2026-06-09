@@ -1,304 +1,191 @@
-"""Main application module for the news aggregation application."""
-
-import asyncio
+"""
+This script fetches RSS articles, summarizes them with Gemini, and writes
+static digest data for the web app to serve instantly.
+"""
+import html
 import json
 import os
-from datetime import datetime, timedelta
+import re
+import time
 from pathlib import Path
-from enum import Enum
 
+import feedparser
 from dotenv import load_dotenv
+from google import genai
 
-from src.fetchers import RSSFetcher
-from src.fetchers.base import Article
-from src.summarizers import OpenAISummarizer
-from src.summarizers.ollama_summarizer import OllamaSummarizer
-from src.summarizers.groq_summarizer import GroqSummarizer
-from src.formatters import MarkdownFormatter, HTMLFormatter
+load_dotenv()
 
+API_KEY = os.getenv("GEMINI_API_KEY")
+if not API_KEY:
+    raise RuntimeError("GEMINI_API_KEY is not set in the environment.")
 
-class TimeFrame(Enum):
-    """Time frame options for filtering articles."""
-    HOURS_24 = "24h"
-    DAYS_3 = "3d"
-    WEEK = "7d"
-    ALL = "all"
-    
-    @property
-    def delta(self) -> timedelta | None:
-        """Get the timedelta for this timeframe."""
-        mapping = {
-            "24h": timedelta(hours=24),
-            "3d": timedelta(days=3),
-            "7d": timedelta(days=7),
-            "all": None,
-        }
-        return mapping.get(self.value)
-    
-    @property
-    def label(self) -> str:
-        """Human-readable label."""
-        mapping = {
-            "24h": "Past 24 Hours",
-            "3d": "Past 3 Days",
-            "7d": "Past Week",
-            "all": "All Time",
-        }
-        return mapping.get(self.value, "All Time")
+CLIENT = genai.Client(api_key=API_KEY)
+
+PROJECT_ROOT = Path(__file__).parent.parent
+CONFIG_FILE = PROJECT_ROOT / "config" / "sources.json"
+OUTPUT_FILE = PROJECT_ROOT / "static" / "digest_cache.json"
+
+MODEL_NAME = "models/gemini-flash-latest"
+MAX_ARTICLES = 4
+MAX_SNIPPET_CHARS = 300
+REQUESTS_PER_MINUTE = 5
+MIN_INTERVAL_SECONDS = 60 / REQUESTS_PER_MINUTE
+LAST_CALL_TS = 0.0
 
 
-class NewsAggregator:
-    """Main class for aggregating news from multiple sources."""
-    
-    def __init__(self, config_path: str = "config/sources.json", use_ollama: bool = False):
-        load_dotenv()
-        
-        self.config_path = Path(config_path)
-        self.config = self._load_config()
-        
-        # Priority: Groq (free cloud) > OpenAI (paid) > Ollama (local)
-        groq_key = os.getenv("GROQ_API_KEY")
-        openai_key = os.getenv("OPENAI_API_KEY")
-        
-        if groq_key and groq_key != "your_groq_api_key_here":
-            print("⚡ Using Groq (free cloud AI) for summaries")
-            self.summarizer = GroqSummarizer()
-        elif openai_key and openai_key != "your_openai_api_key_here":
-            print("☁️ Using OpenAI for summaries")
-            self.summarizer = OpenAISummarizer()
-        else:
-            print("📦 Using Ollama (local, free) for summaries")
-            self.summarizer = OllamaSummarizer()
-        
-        self.markdown_formatter = MarkdownFormatter()
-        self.html_formatter = HTMLFormatter()
-    
-    def _load_config(self) -> dict:
-        """Load configuration from JSON file."""
-        if not self.config_path.exists():
-            raise FileNotFoundError(f"Config file not found: {self.config_path}")
-        
-        with open(self.config_path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    
-    async def fetch_category(
-        self,
-        category_id: str,
-        category_config: dict,
-        timeframe: TimeFrame = TimeFrame.ALL,
-    ) -> list[Article]:
-        """Fetch articles for a single category.
-        
-        Args:
-            category_id: Unique identifier for the category.
-            category_config: Configuration for the category including sources.
-            timeframe: Filter articles to this time window.
-            
-        Returns:
-            List of articles for the category.
-        """
-        articles = []
-        fetchers = []
-        
-        settings = self.config.get("settings", {})
-        max_per_source = settings.get("max_articles_per_source", 10)  # Fetch more initially
-        timeout = settings.get("fetch_timeout_seconds", 30)
-        
-        # Create fetchers for each source
-        for source in category_config.get("sources", []):
-            if source.get("type") == "rss":
-                fetcher = RSSFetcher(
-                    source_name=source["name"],
-                    category=category_config["name"],
-                    feed_url=source["url"],
-                    max_articles=max_per_source,
-                    timeout=timeout,
-                )
-                fetchers.append(fetcher)
-        
-        # Fetch from all sources concurrently
-        try:
-            tasks = [fetcher.fetch() for fetcher in fetchers]
-            results = await asyncio.gather(*tasks, return_exceptions=True)
-            
-            for result in results:
-                if isinstance(result, list):
-                    articles.extend(result)
-                elif isinstance(result, Exception):
-                    print(f"Error fetching: {result}")
-        
-        finally:
-            # Clean up fetchers
-            for fetcher in fetchers:
-                await fetcher.close()
-        
-        # Filter by timeframe
-        if timeframe.delta is not None:
-            from datetime import timezone
-            cutoff = datetime.now(timezone.utc) - timeframe.delta
-            filtered = []
-            for a in articles:
-                if a.published_at:
-                    # Make datetime timezone-aware if it isn't
-                    pub_date = a.published_at
-                    if pub_date.tzinfo is None:
-                        pub_date = pub_date.replace(tzinfo=timezone.utc)
-                    if pub_date >= cutoff:
-                        filtered.append(a)
-            articles = filtered
-        
-        # Sort by publication date (newest first) as initial ordering
-        articles.sort(
-            key=lambda a: a.published_at.replace(tzinfo=None) if a.published_at else datetime.min,
-            reverse=True
+def throttle_requests() -> None:
+    """Simple per-process rate limiter for free-tier quotas."""
+    global LAST_CALL_TS
+    now = time.monotonic()
+    elapsed = now - LAST_CALL_TS
+    if elapsed < MIN_INTERVAL_SECONDS:
+        time.sleep(MIN_INTERVAL_SECONDS - elapsed)
+    LAST_CALL_TS = time.monotonic()
+
+
+def get_articles_from_feed(feed_url: str, source_name: str, limit: int = MAX_ARTICLES) -> list:
+    """Fetch and parse articles from an RSS feed."""
+    try:
+        feed = feedparser.parse(feed_url)
+        entries = feed.entries or []
+        for entry in entries:
+            entry["_source_name"] = source_name
+        sorted_entries = sorted(
+            entries,
+            key=lambda x: x.get("published_parsed") or x.get("updated_parsed") or 0,
+            reverse=True,
         )
-        
-        # Limit articles per category
-        max_per_category = settings.get("max_articles_per_category", 20)
-        return articles[:max_per_category]
-    
-    async def fetch_all(
-        self,
-        timeframe: TimeFrame = TimeFrame.ALL,
-        rank_by_relevance: bool = False,
-    ) -> dict[str, list[Article]]:
-        """Fetch articles from all categories.
-        
-        Args:
-            timeframe: Filter articles to this time window.
-            rank_by_relevance: If True, use AI to rank by importance instead of date.
-        
-        Returns:
-            Dictionary mapping category IDs to lists of articles.
-        """
-        categories = self.config.get("categories", {})
-        results = {}
-        
-        for category_id, category_config in categories.items():
-            print(f"Fetching {category_config['name']}...")
-            articles = await self.fetch_category(category_id, category_config, timeframe)
-            print(f"  Found {len(articles)} articles")
-            
-            # Optionally rank by relevance using AI
-            if rank_by_relevance and articles and hasattr(self.summarizer, 'score_articles_batch'):
-                print(f"  🎯 Scoring relevance...")
-                scored = await self.summarizer.score_articles_batch(articles)
-                articles = [article for article, score in scored]
-                # Store scores for display
-                for i, (article, score) in enumerate(scored):
-                    article.relevance_score = score
-                print(f"  Top scored: {articles[0].title[:50]}... (score: {scored[0][1]})")
-            
-            results[category_id] = articles
-        
-        return results
-    
-    async def generate_summaries(
-        self,
-        articles_by_category: dict[str, list[Article]]
-    ) -> dict[str, dict]:
-        """Generate summaries for all categories.
-        
-        Args:
-            articles_by_category: Dictionary mapping category IDs to article lists.
-            
-        Returns:
-            Dictionary with category data including summaries.
-        """
-        categories = self.config.get("categories", {})
-        results = {}
-        
-        for category_id, articles in articles_by_category.items():
-            category_name = categories[category_id]["name"]
-            print(f"Summarizing {category_name}...")
-            
-            # Generate category summary
-            summary = await self.summarizer.summarize_category(
-                category_name, articles
-            )
-            
-            # Generate individual article summaries
-            for article in articles[:5]:
-                if not article.summary:
-                    article.summary = await self.summarizer.summarize_article(article)
-            
-            results[category_id] = {
-                "name": category_name,
-                "summary": summary,
-                "articles": articles,
-            }
-        
-        return results
-    
-    async def generate_digest(
-        self,
-        output_format: str = "both",
-        timeframe: TimeFrame = TimeFrame.ALL,
-        rank_by_relevance: bool = True,
-    ) -> tuple[Path, Path | None]:
-        """Generate the complete daily digest.
-        
-        Args:
-            output_format: Output format - 'markdown', 'html', or 'both'.
-            timeframe: Filter articles to this time window.
-            rank_by_relevance: If True, rank articles by AI-scored importance.
-            
-        Returns:
-            Tuple of paths to the generated files.
-        """
-        date = datetime.now()
-        
-        print("=" * 50)
-        print(f"Daily News Digest - {date.strftime('%Y-%m-%d')}")
-        print(f"Timeframe: {timeframe.label}")
-        print(f"Ranking: {'By Relevance' if rank_by_relevance else 'By Date'}")
-        print("=" * 50)
-        
-        # Fetch articles
-        print("\n📥 Fetching articles...")
-        articles_by_category = await self.fetch_all(
-            timeframe=timeframe,
-            rank_by_relevance=rank_by_relevance,
-        )
-        
-        total_articles = sum(len(a) for a in articles_by_category.values())
-        print(f"\n✅ Fetched {total_articles} articles total")
-        
-        # Generate summaries
-        print("\n🤖 Generating summaries...")
-        category_data = await self.generate_summaries(articles_by_category)
-        
-        # Format and save outputs
-        print("\n📝 Formatting output...")
-        
-        md_path = None
-        html_path = None
-        
-        if output_format in ("markdown", "both"):
-            md_content = self.markdown_formatter.format_digest(category_data, date)
-            md_path = self.markdown_formatter.save(md_content, date=date)
-            print(f"  Markdown: {md_path}")
-        
-        if output_format in ("html", "both"):
-            html_content = self.html_formatter.format_digest(category_data, date)
-            html_path = self.html_formatter.save(html_content, date=date)
-            print(f"  HTML: {html_path}")
-        
-        print("\n✨ Digest generation complete!")
-        
-        return md_path, html_path
+        return sorted_entries[:limit]
+    except Exception as exc:
+        print(f"Error fetching feed {feed_url}: {exc}")
+        return []
 
 
-async def main():
-    """Main entry point."""
-    aggregator = NewsAggregator()
-    # Default: rank by relevance, past 24 hours
-    await aggregator.generate_digest(
-        output_format="both",
-        timeframe=TimeFrame.HOURS_24,
-        rank_by_relevance=True,
+def build_prompt(category_name: str, angle: str, articles: list) -> str:
+    """Build a concise prompt for Gemini."""
+    lines = []
+    for article in articles:
+        title = article.get("title", "No Title")
+        summary = article.get("summary") or article.get("description") or ""
+        summary = " ".join(summary.split())[:MAX_SNIPPET_CHARS]
+        lines.append(f"- {title}: {summary}")
+
+    content_str = "\n".join(lines)
+    return (
+        f"Analyze the following recent article headlines and snippets for the \"{category_name}\" category.\n\n"
+        f"Your instructions are: {angle}\n\n"
+        "Based on these articles, provide exactly 2 concise, high-signal summary bullet points.\n"
+        "Do not add any introductory or concluding text.\n\n"
+        f"Articles:\n{content_str}"
     )
 
 
+def generate_summary_with_gemini(category_name: str, articles: list, angle: str) -> str:
+    """Generate a concise summary for a list of articles using Gemini."""
+    if not articles:
+        return "No articles found for this category."
+
+    prompt = build_prompt(category_name, angle, articles)
+    try:
+        throttle_requests()
+        response = CLIENT.models.generate_content(model=MODEL_NAME, contents=prompt)
+        text = getattr(response, "text", None)
+        if not text:
+            return "Summary unavailable."
+        return normalize_summary(text)
+    except Exception as exc:
+        if "RESOURCE_EXHAUSTED" in str(exc):
+            print("Rate limit hit; waiting 30 seconds before retrying.")
+            time.sleep(30)
+            try:
+                response = CLIENT.models.generate_content(model=MODEL_NAME, contents=prompt)
+                text = getattr(response, "text", None)
+                if text:
+                    return normalize_summary(text)
+                return "Summary unavailable."
+            except Exception as retry_exc:
+                print(f"Retry failed for {category_name}: {retry_exc}")
+        print(f"Error generating summary for {category_name}: {exc}")
+        return fallback_summary(category_name, articles)
+
+
+def normalize_summary(text: str) -> str:
+    """Normalize model output for clean inline display."""
+    cleaned = html.unescape(text)
+    cleaned = re.sub(r"\*\*(.*?)\*\*", r"\1", cleaned)
+    cleaned = cleaned.replace("\n", " ")
+    cleaned = cleaned.replace("•", " ")
+    cleaned = cleaned.replace("*", " ")
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
+    return cleaned
+
+
+def fallback_summary(category_name: str, articles: list) -> str:
+    """Fallback summary built from article titles when the API fails."""
+    titles = [a.get("title", "") for a in articles if a.get("title")]
+    if not titles:
+        return f"No summary available for {category_name}."
+    first = titles[0]
+    second = titles[1] if len(titles) > 1 else titles[0]
+    return f"Key items: {first}. Also: {second}."
+
+
+def format_article(article: dict) -> dict:
+    """Normalize article data for JSON output."""
+    summary = article.get("summary") or article.get("description") or ""
+    summary = re.sub(r"<[^>]+>", " ", summary)
+    title = html.unescape(article.get("title") or "")
+    return {
+        "title": title,
+        "url": article.get("link"),
+        "source": article.get("_source_name") or (article.get("source") or {}).get("title"),
+        "published_at": article.get("published"),
+        "summary": html.unescape(" ".join(summary.split())[:MAX_SNIPPET_CHARS]),
+    }
+
+
+def main() -> None:
+    """Run the news aggregation and summarization pipeline."""
+    with open(CONFIG_FILE, "r", encoding="utf-8") as handle:
+        config = json.load(handle)
+
+    categories = config.get("categories", {})
+    final_digest = {}
+
+    for cat_id, cat_details in categories.items():
+        category_name = cat_details.get("name", "Unnamed Category")
+        angle = cat_details.get("angle", "Summarize the key events.")
+        print(f"Processing category: {category_name}...")
+
+        all_articles = []
+        for source in cat_details.get("sources", []):
+            url = source.get("url")
+            if not url:
+                continue
+            source_name = source.get("name") or category_name
+            all_articles.extend(get_articles_from_feed(url, source_name, limit=MAX_ARTICLES))
+
+        all_articles.sort(
+            key=lambda x: x.get("published_parsed") or x.get("updated_parsed") or 0,
+            reverse=True,
+        )
+        top_articles = all_articles[:MAX_ARTICLES]
+
+        summary = generate_summary_with_gemini(category_name, top_articles, angle)
+        formatted_articles = [format_article(article) for article in top_articles]
+
+        final_digest[cat_id] = {
+            "name": category_name,
+            "summary": summary,
+            "articles": formatted_articles,
+        }
+
+    OUTPUT_FILE.parent.mkdir(exist_ok=True)
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as handle:
+        json.dump(final_digest, handle, indent=2)
+
+    print(f"Digest saved to {OUTPUT_FILE}")
+
+
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()

@@ -1,0 +1,47 @@
+# .github/workflows/morning_brief.yml
+
+name: 'Morning Brief: Generate Daily News Digest'
+
+on:
+  # Schedule to run every morning at 6:00 AM UTC
+  schedule:
+    - cron: '0 6 * * *'
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  # Grant write permissions to the repository so the action can commit the updated file
+  contents: write
+
+jobs:
+  generate-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout Repository'
+        uses: actions/checkout@v3
+
+      - name: 'Set up Python 3.11'
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: 'Install Dependencies'
+        run: |
+          python -m pip install --upgrade pip
+          pip install google-generativeai feedparser flask python-dotenv
+
+      - name: 'Run News Generation Pipeline'
+        env:
+          # Use the secret to provide the API key to the script
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python src/main.py
+
+      - name: 'Commit and Push Updated Digest'
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'actions-bot@github.com'
+          git add static/digest_cache.json
+          # Commit only if there are changes
+          git diff --staged --quiet || git commit -m "📰 Automated Daily News Digest Update"
+          git push

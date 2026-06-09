@@ -2,236 +2,236 @@
   "data": {
     "finance_business": {
       "name": "Finance/Business",
-      "summary": "Here's a 2-3 paragraph summary of today's finance and business news:\n\nThe US government appears close to reaching an immigration deal with Democrats, which could avert a potential government shutdown. However, the recent crackdown on immigrants has already generated significant revenue for certain companies, including Palantir and Deloitte, which have benefited from increased spending by government agencies. The Trump administration's immigration policies have also led to concerns about access to prisons, as US plans to draw down ICE operations in Minnesota amid local outcry.\n\nIn other news, the global economy took a hit after tech woes triggered a global selloff, with EM assets particularly affected. The market decline was exacerbated by Microsoft's recent announcement of significant spending on artificial intelligence (AI), which unnerved investors and led to a sell-off in US tech stocks, with the Nasdaq falling over 2% and the S&P 500 weakening by 1.2%. Meanwhile, gold prices have also fallen, retreating from a sudden selloff after breaking through $5,500.\n\nIn related news, there are concerns about the safety of uranium sourcing in Niger, following an attack on a facility that processes the mineral. Additionally, elite college finance clubs are playing a key role in shaping young professionals' paths to Wall Street, with early recruiting for careers in banking forcing candidates to make significant choices at a young age.",
+      "summary": "Here is a 2-3 paragraph summary of today's Finance/Business news:\n\nThe S&P 500 is on track for its longest weekly rally since 2023, with the index poised for an eighth consecutive gain. The recent AI-fueled rally has been fueled by a surge in technology stocks and has helped to drive overall market gains. Meanwhile, Chinese-made cars are gaining popularity in Europe as Western automakers capitalize on overcapacity in China to export lower-cost vehicles.\n\nIn other business news, France is exploring the possibility of joining a UK-German long-range missile project aimed at closing the conventional capability gap with Russia. The partnership could provide France with access to advanced military technology and bolster its defense capabilities.\n\nOn the downside, shares in Hungarian energy company Mol Group fell after a blast occurred at one of its petrochemical plants in Hungary. Additionally, Djibouti announced plans to collaborate with Dangote and Ethiopia on building pipelines to its port, which could have significant implications for regional trade and economic development.",
       "articles": [
         {
-          "title": "Trump, Democrats Close to Immigration Deal to Avert Shutdown",
-          "url": "https://www.bloomberg.com/news/articles/2026-01-29/trump-democrats-make-some-progress-in-talks-to-avert-shutdown",
+          "title": "S&amp;P 500 Is Set for Longest Weekly Rally Since 2023: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-21/asian-stocks-to-rise-on-optimism-over-iran-talks-markets-wrap",
           "source": "Bloomberg",
-          "published_at": "January 29, 2026",
-          "summary": "Please provide the full text of the news article so I can summarize it for you.",
-          "relevance_score": 7
+          "published_at": "May 21, 2026",
+          "summary": "Unfortunately, you didn't provide the full text of the news article. Could you please paste the summary section or provide more context about the article? I'd be happy to summarize it for you in 2-3 sentences once I have the necessary information.",
+          "relevance_score": 8
         },
         {
-          "title": "Companies reap $22bn from Trump\u2019s immigration crackdown",
-          "url": "https://www.ft.com/content/c74170d3-237d-459c-8642-bfd71530897d",
+          "title": "US parks dozens of military aircraft at Israel\u2019s Ben Gurion airport",
+          "url": "https://www.ft.com/content/37629c1d-601e-41d3-9aff-27c5327c1c81",
           "source": "Financial Times",
-          "published_at": "January 29, 2026",
-          "summary": "Here is a summary of the article in 3 sentences:\n\nUS companies such as Palantir and Deloitte have reaped significant profits, estimated at $22 billion, from the implementation of Trump's immigration crackdown. The funds were spent on technology solutions, data analytics, and other services to support government agencies tasked with enforcing stricter immigration policies. The spending has provided a substantial windfall for these companies, benefiting from increased demand for their services in the wake of the administration's changes.",
+          "published_at": "May 22, 2026",
+          "summary": "The US has deployed dozens of military aircraft to Ben Gurion Airport in Israel, with satellite images showing at least 50 tanker planes stationed there as of May. The exact purpose and duration of the deployment is unclear, but it marks one of the largest such deployments by the US to Israel's airport. Details about the specific planes and mission are not publicly available.",
           "relevance_score": 6
         },
         {
-          "title": "US plans ICE drawdown in Minnesota after outcry over immigration raids",
-          "url": "https://www.ft.com/content/9b88c0bf-b86d-44ec-ac9a-e3a80af7f6ee",
-          "source": "Financial Times",
-          "published_at": "January 29, 2026",
-          "summary": "The US is planning to reduce the presence of Immigration and Customs Enforcement (ICE) agents in Minnesota following public outcry over recent immigration raids. The decision comes after ICE officials expressed a need for cooperation from local authorities, including prison access, to maintain a certain level of enforcement activity. The planned drawdown would be contingent on reaching a deal with local authorities, according to Border Tsar Tom Homan.",
-          "relevance_score": 6
-        },
-        {
-          "title": "EM Assets Take a Hit as Tech Woes Trigger Global Selloff",
-          "url": "https://www.bloomberg.com/news/articles/2026-01-29/emerging-market-assets-pause-as-dollar-steadies-after-fed-hold",
+          "title": "AI-Fueled Rally Puts S&amp;P 500 on Track for Eighth Weekly Gain",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-22/ai-fueled-rally-puts-s-p-500-on-track-for-eighth-weekly-gain",
           "source": "Bloomberg",
-          "published_at": "January 29, 2026",
-          "summary": "Unfortunately, I don't see the actual news article. Could you please provide the text of the article so I can summarize it for you in 2-3 concise sentences?",
+          "published_at": "May 22, 2026",
+          "summary": "I'm happy to help, but it seems that the article is incomplete. Can you please provide the rest of the text so I can summarize it in 2-3 sentences?",
           "relevance_score": 6
         },
         {
-          "title": "\u2018I wouldn\u2019t dare take these drugs\u2019: how China supplies untested peptides to the west",
-          "url": "https://www.ft.com/content/b15407bd-7b86-45c3-9780-0c92117ccbfb",
+          "title": "How Chinese-made cars are conquering Europe",
+          "url": "https://www.ft.com/content/5529010d-a1c0-41f6-b7eb-fd916ffcc5ae",
           "source": "Financial Times",
-          "published_at": "January 29, 2026",
-          "summary": "Here is a summary of the article in 3 sentences:\n\nChina has been supplying untested peptides to Western countries, with many being marketed as treatments for various health issues such as weight loss and improved sleep. These peptides are often injected into the body and claim to offer a range of benefits, but their safety and efficacy have not been thoroughly tested. The demand for these substances is driven by the success of existing weight-loss drugs, leading to an influx of unregulated compounds being sold globally.",
+          "published_at": "May 22, 2026",
+          "summary": "Here is a summary of the article in 3 sentences:\n\nChinese-made cars are gaining popularity in European markets, with many Western automakers capitalizing on China's overproduction surplus to export lower-cost vehicles. This trend allows Western companies to compete more effectively against cheaper Chinese imports, while also benefiting from economies of scale and reduced production costs. As a result, Chinese-brand cars such as Geely and Great Wall are becoming increasingly common in European showrooms.",
           "relevance_score": 6
+        },
+        {
+          "title": "France seeks to join UK-German long-range missile plan",
+          "url": "https://www.ft.com/content/c4238437-b064-451a-9900-4c56cf1977d7",
+          "source": "Financial Times",
+          "published_at": "May 22, 2026",
+          "summary": "Here is a summary of the news article in 3 sentences:\n\nFrance has expressed interest in joining the UK-German long-range missile project, which aims to close the conventional capability gap with Russia. The plan would enhance the security of Western Europe by providing a more advanced and powerful air defense system. Details of France's involvement are still being discussed, but Paris views the cooperation as an opportunity to strengthen its own military capabilities.",
+          "relevance_score": 4
         }
       ]
     },
     "ai_technology": {
       "name": "AI & Technology",
-      "summary": "Here is a 2-3 paragraph summary of today's AI & Technology news:\n\nNvidia has reportedly secured approval from Beijing to sell hundreds of thousands of its H200 chips to Chinese AI companies, marking a significant shift in US tech policy. This development marks the culmination of Nvidia's campaign to expand its presence in the lucrative Chinese market.\n\nMeanwhile, India is playing a crucial role in shaping Google's approach to AI in education, with the country boasting the highest global usage of Gemini for learning. Google is leveraging this expertise to develop more effective AI solutions for educational institutions worldwide.\n\nIn other news, Anthropic has launched an AI lab called Flapping Airplanes, which some analysts believe holds the key to building a better AI assistant. Additionally, Tesla's energy storage business is growing at a rapid pace, while Apple has introduced a new security feature that limits cell networks from collecting precise location data, providing users with greater privacy and protection.",
+      "summary": "Here is a 2-3 paragraph summary of today's AI & Technology news:\n\nA recent software supply chain attack has highlighted the growing threat of hackers exploiting open source code. According to reports, an unprecedented number of attacks are now poisoning legitimate code at scale, with potential consequences for the security and stability of critical systems. This trend underscores the need for increased vigilance and cooperation among developers and cybersecurity experts to prevent such incidents.\n\nIn other news, Waymo has expanded its pause on robotaxis in two cities, Atlanta and San Antonio, due to flooding concerns. Meanwhile, Finnish phone-maker HMD is incorporating an Indian AI chatbot app onto its new smartphone in a bid to tap into the local market. The company's decision reflects the growing importance of language support and cultural relevance in mobile technology.\n\nAdditionally, researchers have pointed out that many scientific instruments rely on ancient counting techniques, highlighting the simplicity and elegance behind some fundamental approaches. However, this trend has also led to concerns about the limitations and potential biases inherent in these methods.",
       "articles": [
         {
-          "title": "Nvidia\u2019s Campaign to Sell AI Chips to China Finally Pays Off",
-          "url": "https://www.wired.com/story/made-in-china-china-nvidia-h200-beijing-approval/",
-          "source": "Wired",
-          "published_at": "January 29, 2026",
-          "summary": "Beijing has approved the sale of hundreds of thousands of Nvidia H200 chips to Chinese AI companies, marking a significant breakthrough for the US tech giant's efforts to expand its business in China. This approval comes after a period of diplomatic tension between the two countries and represents a shift in US tech policy towards greater cooperation with China. The deal is seen as a major victory for Nvidia's campaign to sell its AI chips to Chinese companies.",
+          "title": "A hacker group is poisoning open source code at an unprecedented scale",
+          "url": "https://arstechnica.com/information-technology/2026/05/a-hacker-group-is-poisoning-open-source-code-at-an-unprecedented-scale/",
+          "source": "Ars Technica",
+          "published_at": "May 22, 2026",
+          "summary": "A hacker group has carried out a widespread supply chain attack on open source code, corrupting hundreds of tools and extorting victims for profit. This unprecedented scale of the attack is sowing distrust in an entire ecosystem used to create the world's software. The hackers' goal appears to be financial gain through extortion.",
           "relevance_score": 8
         },
         {
-          "title": "India is teaching Google how AI in education can scale",
-          "url": "https://techcrunch.com/2026/01/29/india-is-teaching-google-how-ai-in-education-can-scale/",
+          "title": "Waymo expands pause to four cities as robotaxis keep driving into floods",
+          "url": "https://techcrunch.com/2026/05/21/waymo-pauses-service-in-four-cities-as-robotaxis-keep-driving-into-floods/",
           "source": "TechCrunch",
-          "published_at": "January 29, 2026",
-          "summary": "India has become a crucial market for Google, with the country having the highest global usage of its Gemini AI tool for educational purposes. This has led Google to develop its approach to integrating AI in education, leveraging insights from India's experiences. As a result, India is playing a key role in shaping Google's strategy on this front.",
-          "relevance_score": 6
+          "published_at": "May 22, 2026",
+          "summary": "Waymo has expanded its temporary suspension of its robotaxi service to four cities, including Atlanta and San Antonio, due to flooded roads. The pause aims to prevent the vehicles from driving into water. No further updates on resumption have been provided at this time.",
+          "relevance_score": 5
         },
         {
-          "title": "Trump Admin's Plans for $500 Million USIP Building May Violate Court Order, Say Former Workers",
-          "url": "https://www.wired.com/story/trump-admins-plans-for-dollar500-million-usip-building-may-violate-court-order-say-former-workers/",
+          "title": "Finnish phone-maker HMD bundles Indian AI chatbot onto new smartphone in push to reach local market",
+          "url": "https://techcrunch.com/2026/05/21/finnish-phone-maker-hmd-bundles-indian-ai-chatbot-onto-new-smartphone-in-push-to-reach-local-market/",
+          "source": "TechCrunch",
+          "published_at": "May 22, 2026",
+          "summary": "HMD, a Finnish phone manufacturer, has bundled the Indian AI chatbot \"Indus\" into its new smartphone as part of an effort to tap into the local Indian market. The chatbot, developed by Sarvam, can support 22 different Indic languages, aiming to cater to the country's diverse linguistic population. This move is seen as a push to reach and engage with Indian consumers on a more personalized level.",
+          "relevance_score": 4
+        },
+        {
+          "title": "All the Fancy Measuring Devices Used in Science Rely on Two Stone-Age Techniques",
+          "url": "https://www.wired.com/story/story/all-measuring-devices-run-on-two-stone-age-techniques/",
           "source": "Wired",
-          "published_at": "January 29, 2026",
-          "summary": "The State Department is set to take control of a $500 million US Institute of Peace (USIP) building in Washington D.C., sparking concerns that it may violate a court order. Former USIP employees claim the building was seized and is being handed over for use by Donald Trump's \"Board of Peace,\" which they say has no official status. The move appears to disregard the court's previous ruling on the matter.",
-          "relevance_score": 6
+          "published_at": "May 22, 2026",
+          "summary": "Scientists have found that despite advances in technology, many high-tech measuring devices rely on two ancient techniques: counting and comparison. These fundamental methods have been used for thousands of years, dating back to the Stone Age, and are still employed today in various fields. The simplicity and reliability of these techniques make them a cornerstone of scientific research.",
+          "relevance_score": 3
         },
         {
-          "title": "Flapping Airplanes and the promise of research-driven AI",
-          "url": "https://techcrunch.com/2026/01/29/flapping-airplanes-and-the-promise-of-research-driven-ai/",
+          "title": "SpaceX scrubs first Starship V3 launch just before liftoff",
+          "url": "https://techcrunch.com/2026/05/21/spacex-scrubs-first-starship-v3-launch-just-before-liftoff/",
           "source": "TechCrunch",
-          "published_at": "January 29, 2026",
-          "summary": "Unfortunately, there is no article to summarize. The text you provided appears to be a snippet from a news article about the launch of a new AI lab called \"Flapping Airplanes\", but it doesn't contain any actual content to summarize. If you provide the full article, I'd be happy to help!",
-          "relevance_score": 4
-        },
-        {
-          "title": "Does Anthropic believe its AI is conscious, or is that just what it wants Claude to think?",
-          "url": "https://arstechnica.com/information-technology/2026/01/does-anthropic-believe-its-ai-is-conscious-or-is-that-just-what-it-wants-claude-to-think/",
-          "source": "Ars Technica",
-          "published_at": "January 29, 2026",
-          "summary": "Anthropic, a company behind an AI assistant named Claude, has released a 30,000-word document outlining its vision for the AI's behavior, which surprisingly assumes Claude has emotions and desires similar to those of humans. The document, dubbed \"Claude's Constitution,\" takes on an anthropomorphic tone that raises questions about whether Anthropic truly believes its AI is conscious or if it's just projecting a certain image. The company's intentions remain unclear, sparking debate among experts about the implications of this approach.",
-          "relevance_score": 4
+          "published_at": "May 22, 2026",
+          "summary": "Here is a summary of the article in 2-3 sentences:\n\nSpaceX has cancelled its first launch attempt for the Starship V3, with liftoff mere moments away. The company had fueled the rocket and was preparing to blast off, but decided to call off the launch. A new attempt is expected Friday.",
+          "relevance_score": 3
         }
       ]
     },
     "pop_culture": {
       "name": "Pop Culture",
-      "summary": "Here is a 2-3 paragraph summary of today's Pop Culture news:\n\nThe Library of Congress has added 25 films to its National Film Registry, including cult classics like \"Clueless\" and \"Inception\", as well as critically acclaimed dramas like \"Philadelphia\" and \"The Grand Budapest Hotel\". The selections were chosen for their cultural, historical, or aesthetic significance, ensuring that these iconic films are preserved for future generations.\n\nMeanwhile, public television stations across the US are getting a boost thanks to a surprise windfall from the auction of Bob Ross paintings. After President Trump's administration cut federal funding for public TV, donors stepped in with $1.2 million, which will help support programs like PBS and NPR.\n\nIn other news, Critical Role star Matthew Mercer sat down with Dropout host Brennan Lee Mulligan for an interview about the rise of Dungeons & Dragons to mainstream popularity, while Nicki Minaj bravely spoke out against Donald Trump, sharing a photo of her \"Trump Gold Card\" on social media. Other highlights include the upcoming release date for Mahesh Babu's epic adventure film \"Varanasi\", the nomination of the Dalai Lama for his first Grammy Award, and Ari Emanuel's forthcoming memoir \"Roll the Calls\".",
+      "summary": "Here's a 2-3 paragraph summary of today's pop culture news:\n\nIn music, Paul McCartney has released a new solo masterpiece titled <em>The Boys of Dungeon Lane</em>, which is being praised for its richly nostalgic trip and proof that the legend remains as creative as ever. Meanwhile, filmmaker Valeska Grisebach's \"The Dreamed Adventure\" is making waves at Cannes, with its Western genre subversion earning it a spot as a contender for the Palme d'Or.\n\nIn television, Italy's Global Series Festival (IGS) has launched its second edition in Cannes, aiming to boost Italy's status in the international TV landscape. Estonia is also targeting a threefold expansion of its film industry within five years, with new sound stages under construction forming part of this bid to become a full-service hub for international productions.\n\nIn other news, Lizzo was a major star at amfAR's Cannes gala, helping raise $20 million for AIDS research alongside Rami Malek and Eva Longoria. The festival also saw the premiere of Moses Sumney's scoring debut, \"Is God Is\", which paired his brilliance with composer-producer Joseph Shirley to soundtrack Aleshea Harris' film adaptation.",
       "articles": [
         {
-          "title": "\u2018Clueless,\u2019 \u2018Inception,\u2019 \u2018The Incredible\u2019 Join the Library of Congress\u2019 Film Registry",
-          "url": "https://www.rollingstone.com/tv-movies/tv-movie-news/library-of-congress-film-registry-2026-1235506410/",
+          "title": "Paul McCartney Looks Back in Splendor With a New Solo Masterpiece",
+          "url": "https://www.rollingstone.com/music/music-album-reviews/paul-mccartney-boys-of-dungeon-lane-1235559353/",
           "source": "Rolling Stone",
-          "published_at": "January 29, 2026",
-          "summary": "The Library of Congress has added 25 films to its National Film Registry, including \"Clueless,\" \"Inception,\" and \"The Incredible Hulk.\" These iconic movies were chosen for their cultural significance and historical importance. The registry aims to preserve the nation's cinematic heritage for future generations.",
-          "relevance_score": 6
+          "published_at": "May 22, 2026",
+          "summary": "Unfortunately, the article text provided does not contain the actual content. However, I can give you a general summary based on the title.\n\nPaul McCartney has released his new solo album, \"The Boys of Dungeon Lane\", which is widely regarded as a masterpiece. The album takes listeners on a richly nostalgic trip, showcasing McCartney's continued creativity and artistry after decades in the music industry.",
+          "relevance_score": 5
         },
         {
-          "title": "Bob Ross Paintings Fetch $1.2 Million for Public TV After Trump Axes Federal Funding",
-          "url": "https://www.rollingstone.com/culture/culture-news/bob-ross-paintings-1-2-million-public-tv-trump-cuts-funding-1235506724/",
-          "source": "Rolling Stone",
-          "published_at": "January 29, 2026",
-          "summary": "Bob Ross's paintings, which were initially sold at a reduced price to raise funds for public TV after President Trump cut federal funding, have unexpectedly fetched $1.2 million. The sale of the artworks, created by the late PBS host, will help support public television stations nationwide struggling due to funding cuts.",
-          "relevance_score": 6
-        },
-        {
-          "title": "Thessaloniki Documentary Festival\u2019s Industry Arm Agora Unveils Lineup of Projects (EXCLUSIVE)",
-          "url": "https://variety.com/2026/film/global/thessaloniki-documentary-festival-agora-lineup-1236644398/",
+          "title": "Italian Global Series Festival in Cannes Launches Second Edition, Aiming to Boost Italy\u2019s Status in the International TV Landscape",
+          "url": "https://variety.com/2026/film/news/italian-global-series-festival-cannes-1236755728/",
           "source": "Variety",
-          "published_at": "January 29, 2026",
-          "summary": "Here is a summary of the article in 2-3 sentences:\n\nThe Agora arm of the Thessaloniki Documentary Festival has unveiled its lineup of projects, featuring 14 documentary initiatives focused on Southeastern Europe. The event, taking place from March 8-12, aims to promote networking and co-production opportunities for the film industry. Around 500 professionals are expected to attend this year's Agora events.",
+          "published_at": "May 22, 2026",
+          "summary": "The Italian Global Series Festival (IGS) has announced its second edition in Cannes, with a focus on boosting Italy's international TV presence. The event will take place from July 3-11 in Rimini and Riccione, highlighting the country's growing status as an industry player. IGS aims to promote Italian series globally.",
           "relevance_score": 4
         },
         {
-          "title": "Matthew Mercer and Brennan Lee Mulligan Interview Each Other on \u2018Dimension 20,\u2019 Critical Role and D&D\u2019s Mainstream Rise: \u2018Who F\u2014ing Knew?\u2019",
-          "url": "https://variety.com/2026/tv/news/brennan-lee-mulligan-matthew-mercer-critical-role-dimension-20-1236644036/",
+          "title": "Estonia Plans to Triple Its Film Industry as Two New Sound Stages Take Shape",
+          "url": "https://variety.com/2026/film/markets-festivals/estonia-film-industry-triple-sound-stages-cannes-1236754872/",
           "source": "Variety",
-          "published_at": "January 29, 2026",
-          "summary": "Here is a summary of the article in 2-3 sentences:\n\nMatthew Mercer and Brennan Lee Mulligan, two prominent figures in Dungeons & Dragons (D&D), sat down for an interview on \"Dimension 20\" to discuss their careers and the mainstream rise of D&D. The two, who have played D&D since they were 10 years old, reflected on how far their hobby has come and shared stories about their journeys into the world of gaming. Their conversation provided insight into the current state of D&D's popularity and its lasting impact on popular culture.",
+          "published_at": "May 22, 2026",
+          "summary": "Estonia aims to triple its film industry within five years by becoming a leading production hub for international films. Two new sound stages are currently under construction, expected to play a key role in the country's expansion plans. The goal is to establish Estonia as a full-service destination for filmmakers.",
           "relevance_score": 4
         },
         {
-          "title": "Nicki Minaj Bravely Vows to Protect World\u2019s Biggest Bully",
-          "url": "https://www.rollingstone.com/music/music-news/nicki-minaj-defends-trump-bully-1235506609/",
+          "title": "Valeska Grisebach on Subverting the Western Genre in Cannes Palme d\u2019Or Contender \u2018The Dreamed Adventure\u2019",
+          "url": "https://variety.com/2026/film/global/valeska-grisebach-the-dreamed-adventure-cannes-1236756282/",
+          "source": "Variety",
+          "published_at": "May 22, 2026",
+          "summary": "Here is a summary of the news article in 2-3 sentences:\n\nGerman filmmaker Valeska Grisebach's new film \"The Dreamed Adventure\" premieres at Cannes and subverts the Western genre. The movie follows a chiselled man returning to a dusty border town after years away, mirroring the start of a classic Western. According to Grisebach, this self-aware nod to the genre is no coincidence.",
+          "relevance_score": 4
+        },
+        {
+          "title": "James Gray: Why I Made \u2018Paper Tiger\u2019",
+          "url": "https://www.rollingstone.com/tv-movies/tv-movie-features/james-gray-paper-tiger-interview-1235552786/",
           "source": "Rolling Stone",
-          "published_at": "January 29, 2026",
-          "summary": "Nicki Minaj has defended herself as a victim of bullying by claiming she is the world's biggest bully. She recently appeared with President Trump at an event and shared a photo of her \"Trump Gold Card\", which promises US residency in record time. The statement appears to be a bold move, with some interpreting it as a sign that Minaj is embracing her reputation as a provocative figure.",
+          "published_at": "May 22, 2026",
+          "summary": "Unfortunately, there is no article provided for me to summarize. The text only includes a title and a brief description of what the content might cover. If you could provide the actual article, I would be happy to assist you in summarizing it in 2-3 concise sentences.",
           "relevance_score": 4
         }
       ]
     },
     "politics": {
       "name": "Politics",
-      "summary": "Here is a 2-3 paragraph summary of today's politics news:\n\nThe Trump administration has come under fire from Democrats and Republicans alike, with Senator Jacky Rosen (D-Nev.) labeling it \"out of control\" and accusing officials of acting like \"kings.\" Meanwhile, House Republicans have unveiled a sweeping elections reform bill dubbed the \"Make Elections Great Again Act,\" which includes requirements like photo ID when voting and citizenship verification to register.\n\nThe Trump administration has also faced criticism for its handling of international security agreements, particularly with regards to Greenland. Despite being challenged by European leaders, President Trump's threat to take over Greenland was reversed, but Congress must now intervene to ensure that any future Arctic security agreement is overseen and complies with international law.\n\nAdditionally, the Environmental Protection Agency (EPA) has proposed rolling back a key provision of the Biden-era \"Good Neighbor\" plan, which aimed to reduce interstate smog pollution. The proposal would limit obligations on certain upwind states to cut smog pollution from their power plants that can flow to downwind states.",
+      "summary": "Here is a 2-3 paragraph summary of today's politics news:\n\nThe US electoral system is facing criticism and calls for reform following recent gerrymandering and Supreme Court decisions that weakened the Voting Rights Act. However, instead of simply accepting these changes, there should be a national conversation about how America votes. This discussion could lead to meaningful reforms that promote fairer and more representative voting systems.\n\nIn other news, former President Trump's monetization of the White House has become increasingly normalized, with many Americans seemingly desensitized to his actions. The concern is not just about what Trump is doing, but also how it sets a problematic precedent for future presidents.\n\nMeanwhile, there are concerns about Trump administration's alleged plans to target former Cuban President Ra\u00fal Castro, who has been indicted. Former national security adviser John Bolton expressed worries that this could be used as a pretext for US military intervention. Additionally, the Democratic National Committee faced criticism for releasing a flawed autopsy report after its 2024 election losses.",
       "articles": [
         {
-          "title": "Rosen: Trump administration \u2018out of control,\u2019 \u2018running around like they are kings\u2019",
-          "url": "https://thehill.com/homenews/senate/5712713-trump-administration-senator-rosen-criticism/",
+          "title": "Sick of gerrymandering? It\u2019s not too late to change how America votes.",
+          "url": "https://thehill.com/opinion/campaign/5890006-fix-congress-eliminate-districts/",
           "source": "The Hill",
-          "published_at": "January 29, 2026",
-          "summary": "Senator Jacky Rosen (D-Nev.) criticized the Trump administration as \"out of control\" and accused its officials of acting with impunity. He described them as running roughshod through the country, echoing his comments to compare them to kings. The criticism was part of a broader attack on President Donald Trump's leadership style.",
-          "relevance_score": 7
-        },
-        {
-          "title": "House Republicans unveil election reform bill dubbed \u2018Make Elections Great Again Act\u2019",
-          "url": "https://thehill.com/homenews/house/5712698-house-republicans-election-reform-bill/",
-          "source": "The Hill",
-          "published_at": "January 29, 2026",
-          "summary": "Here is a summary of the news article in 2-3 sentences:\n\nHouse Republicans have unveiled the \"Make Elections Great Again Act\", a sweeping elections reform bill that aims to make voting more secure. The bill includes requirements such as photo ID at polling stations and citizenship verification for voter registration. Led by Rep. Bryan Steil, the legislation marks an evolution of election reform efforts in the US.",
+          "published_at": "May 22, 2026",
+          "summary": "Here is a summary of the news article in 3 sentences:\n\nThe US electoral system is ripe for change due to recent events such as midterm redistricting and a Supreme Court decision weakening the Voting Rights Act. Gerrymandering and other issues have led to widespread dissatisfaction with the current voting process, making reform necessary. It's time for a national conversation to address these concerns and consider alternatives that can improve the fairness and integrity of American elections.",
           "relevance_score": 6
         },
         {
-          "title": "Congress must intervene to protect NATO and Greenland",
-          "url": "https://thehill.com/opinion/national-security/5711580-nato-allies-concerned-greenland/",
+          "title": "We are all sleeping through Trump\u2019s monetization of the White House",
+          "url": "https://thehill.com/opinion/white-house/5889054-filthy-rich-politicians-trump/",
           "source": "The Hill",
-          "published_at": "January 29, 2026",
-          "summary": "Here is a 2-3 sentence summary of the article:\n\nUS President Donald Trump's initial threat to annex Greenland was later dropped after opposition from European leaders. However, concerns remain about potential future Arctic security agreements that could be unchecked by international law. Congress must now step in to ensure any such agreements are overseen and comply with global regulations.",
-          "relevance_score": 5
-        },
-        {
-          "title": "EPA proposes to limit states\u2019 \u2018Good Neighbor\u2019 obligations to reduce interstate smog pollution",
-          "url": "https://thehill.com/policy/energy-environment/5712692-epa-good-neighbor-smog/",
-          "source": "The Hill",
-          "published_at": "January 29, 2026",
-          "summary": "The EPA has proposed a rollback of the \"Good Neighbor\" regulations, which aimed to reduce interstate smog pollution from power plants. The Trump administration is limiting states' obligations to cut emissions that can affect downwind states, reversing a Biden-era policy. This move seeks to ease environmental restrictions on upwind states.",
+          "published_at": "May 22, 2026",
+          "summary": "The article suggests that despite President Trump's efforts to monetize the White House and its surrounding areas, many Americans seem indifferent or oblivious to these developments. This lack of concern is notable because it implies a significant level of desensitization among the public towards Trump's actions. The article implies that this apathy may be a result of repeated exposure to Trump's policies and behavior.",
           "relevance_score": 4
         },
         {
-          "title": "Nicki Minaj says she got \u2018Gold Trump card free of charge\u2019 after praising president",
-          "url": "https://thehill.com/blogs/in-the-know/5712660-nicki-minaj-donald-trump-gold-card/",
+          "title": "Bolton worried Trump administration may \u2018kidnap or snatch\u2019 Castro",
+          "url": "https://thehill.com/policy/international/5890931-john-bolton-donald-trump-us-cuba-tensions/",
           "source": "The Hill",
-          "published_at": "January 29, 2026",
-          "summary": "Here is a 3-sentence summary of the news article:\n\nNicki Minaj claimed to have received a \"gold Trump card\" from President Trump hours after praising him during an event. The immigration card, featuring Trump's face, was posted by Minaj on social platform X with a casual caption. Minaj's comments sparked speculation about whether she actually received the card as a gift or if it was part of her performance.",
-          "relevance_score": 2
+          "published_at": "May 22, 2026",
+          "summary": "Here is a summary of the article in 2-3 sentences:\n\nFormer US national security adviser John Bolton expressed concern that the Trump administration may try to \"kidnap or snatch\" former Cuban President Ra\u00fal Castro amid speculation about his impending indictment. Bolton linked Castro's potential detention to concerns about US military intervention in Cuba. He demonstrated support for political change in Cuba during a recent appearance.",
+          "relevance_score": 4
+        },
+        {
+          "title": "Steele questions DNC autopsy report timing: \u2018Why are you doing this today?\u2019",
+          "url": "https://thehill.com/homenews/campaign/5890922-michael-steele-2024-dnc-autopsy-report-timing/",
+          "source": "The Hill",
+          "published_at": "May 22, 2026",
+          "summary": "Here is a summary of the article in 2-3 sentences:\n\nConservative pundit Michael Steele criticized the Democratic National Committee's (DNC) timing in releasing a flawed autopsy report. He expressed frustration, asking \"why are you doing this today?\" and suggesting that the report should have been released earlier or not at all. Steele implied that the release was unnecessary and possibly done to hinder post-election analysis.",
+          "relevance_score": 4
+        },
+        {
+          "title": "Waymo temporarily suspends all freeway rides",
+          "url": "https://thehill.com/business/5890909-waymo-freeway-ride-suspension/",
+          "source": "The Hill",
+          "published_at": "May 22, 2026",
+          "summary": "Waymo has temporarily suspended all of its self-driving vehicle ride-hailing services on freeways, citing a need to address navigation challenges in construction zones. The pause is intended to ensure improved safety and efficiency for passengers. This temporary suspension allows Waymo to refine its autonomous driving capabilities in these specific areas.",
+          "relevance_score": 3
         }
       ]
     },
     "global_events": {
       "name": "Global Events",
-      "summary": "Here is a 2-3 paragraph summary of today's Global Events news:\n\nTensions between Iran and the international community escalated as the European Union added Iran's Revolutionary Guards to its terrorist list. This move was met with EU foreign policy chief Kaja Kallas' statement that it was a response to Tehran's deadly crackdown on protesters. The development comes amid heightened tensions between Washington and Tehran, with some experts warning of possible outcomes ranging from regime change to retaliation in the event of a US strike.\n\nMeanwhile, in the United States, lawmakers are pushing for measures to address recent mass shootings. Democrats are advocating for removing funding for the Department of Homeland Security unless new safety protocols are implemented. The issue has become a pressing concern, with the country experiencing a surge in gun violence recently.\n\nElsewhere, violent incidents continue to plague countries around the world. In Niger's capital, heavy gunfire and blasts were reported near an airport that houses an air force base, just 10km from the presidential palace. In entertainment news, rapper Nicki Minaj has publicly declared her admiration for US President Donald Trump, while musician Bruce Springsteen voiced his opposition to ICE policies amidst controversy over the use of a gold card visa.",
+      "summary": "Here is a 2-3 paragraph summary of today's Global Events news:\n\nScientists in the UK are making rapid progress on developing a vaccine for the rare and deadly Ebola virus, known as Bundibugyo. The vaccine, which could be ready for trials in just months, has the potential to save countless lives in regions where the virus is prevalent. This breakthrough comes as the global community continues to grapple with the threat of infectious diseases.\n\nMeanwhile, NATO's military efforts have taken a new turn, with US President Trump announcing that 5,000 additional troops will be sent to Poland in an effort to strengthen the alliance's presence on its eastern border. This move has been welcomed by NATO chief, where he acknowledged it as a positive development for regional security. The increased military presence is also likely to have implications for Russia's growing influence in Eastern Europe.\n\nIn other global news, tensions are rising between the US and Iran over an arms sale to Taiwan that has been put on hold due to the ongoing conflict. Additionally, President Trump's administration continues to exert pressure on Cuba, with the country facing severe fuel shortages and blackouts as a result. The US has also charged Cuba's former leader, Ra\u00fal Castro, with murder in connection with a disputed election outcome. These developments have raised concerns about the stability of governments in both Eastern Europe and the Americas.",
       "articles": [
         {
-          "title": "EU adds Iran's Revolutionary Guards to terrorist list",
-          "url": "https://www.bbc.com/news/articles/c20gypw8enjo?at_medium=RSS&at_campaign=rss",
+          "title": "UK scientists developing Ebola vaccine that could be ready for trials in months",
+          "url": "https://www.bbc.com/news/articles/cy82gkr7xzlo?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
-          "published_at": "January 29, 2026",
-          "summary": "Here is a summary of the article in 2-3 sentences:\n\nThe European Union has added Iran's Revolutionary Guard Corps (IRGC) to its list of terrorist organizations. This move was made in response to Tehran's recent crackdown on protesters, according to EU foreign policy chief Kaja Kallas. The designation aims to limit the IRGC's ability to access European markets and finance.",
+          "published_at": "May 22, 2026",
+          "summary": "Scientists in the UK are developing an Ebola vaccine targeting the Bundibugyo strain, which is responsible for around 1/3 of fatalities among infected individuals. This rare strain has no existing vaccine, making this development significant. The vaccine could be ready for trials within months.",
+          "relevance_score": 8
+        },
+        {
+          "title": "Nato chief welcomes US sending 5,000 troops to Poland",
+          "url": "https://www.bbc.com/news/articles/cedpz9669deo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "published_at": "May 22, 2026",
+          "summary": "US President Donald Trump announced the deployment of 5,000 additional troops to Poland as part of a NATO response to regional tensions. The move was welcomed by NATO Secretary-General Jens Stoltenberg, who is set to meet with US officials at an upcoming Nato meeting in Brussels. The deployment aims to enhance NATO's military presence in Eastern Europe amid rising tensions with Russia.",
           "relevance_score": 7
         },
         {
-          "title": "What could happen if the US strikes Iran? Here are seven scenarios",
-          "url": "https://www.bbc.com/news/articles/ce3kenge1k9o?at_medium=RSS&at_campaign=rss",
+          "title": "US navy chief says $14bn arms sale to Taiwan paused due to Iran war",
+          "url": "https://www.bbc.com/news/articles/c232z4yk437o?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
-          "published_at": "January 29, 2026",
-          "summary": "Unfortunately, you haven't provided the full text of the news article. Could you please paste the relevant section or provide more context about the article? I'll be happy to summarize it for you in 2-3 concise sentences.",
+          "published_at": "May 22, 2026",
+          "summary": "The US Navy has temporarily halted a $14 billion arms sale to Taiwan pending further review, according to Admiral Hung Cao. The decision was made due to the ongoing war in Iran and concerns about having sufficient munitions available. This pause is aimed at ensuring that the US can meet its military obligations elsewhere.",
           "relevance_score": 7
         },
         {
-          "title": "Talks ramp up to avert US government shutdown after Minneapolis shooting",
-          "url": "https://www.bbc.com/news/articles/cn9zp0nyvxdo?at_medium=RSS&at_campaign=rss",
+          "title": "Turkish opposition fights court ousting of leaders in ruling boosting Erdo\u011fan",
+          "url": "https://www.bbc.com/news/articles/c62egj12026o?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
-          "published_at": "January 29, 2026",
-          "summary": "Here is a summary of the article in 2-3 sentences:\n\nUS lawmakers are intensifying talks to avoid a government shutdown, which could be triggered by a lack of funding. Democrats are pushing for changes at the Department of Homeland Security (DHS) if they are not satisfied with proposed measures. A recent shooting in Minneapolis has heightened tensions and fueled concerns about security protocols.",
-          "relevance_score": 6
+          "published_at": "May 22, 2026",
+          "summary": "Here is a summary of the article in 2-3 sentences:\n\nAn appeals court has ruled that a opposition leader's victory was invalid, giving Turkish President Recep Tayyip Erdo\u011fan more control over the country. The ruling boosts Erdo\u011fan's power and undermines his opponents' ability to challenge him. This move further solidifies Erdo\u011fan's grip on power.",
+          "relevance_score": 5
         },
         {
-          "title": "Heavy gunfire and blasts heard near airport in Niger's capital",
-          "url": "https://www.bbc.com/news/articles/cvgp47neze4o?at_medium=RSS&at_campaign=rss",
+          "title": "Cubans grapple with fuel shortages and blackouts as US steps up pressure",
+          "url": "https://www.bbc.com/news/articles/c3e2w43lkvzo?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
-          "published_at": "January 29, 2026",
-          "summary": "Here is a summary of the news article in 2-3 sentences:\n\nHeavy gunfire and explosions were reported near the airport in Niamey, Niger's capital, located just 10km from the presidential palace. The airport, which houses an air force base, has been the site of the disturbances. The incident raises concerns about security and stability in the country.",
-          "relevance_score": 4
-        },
-        {
-          "title": "Nicki Minaj calls herself Trump's 'number one fan' and shows off gold card visa",
-          "url": "https://www.bbc.com/news/articles/cp87l604nx8o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "published_at": "January 29, 2026",
-          "summary": "Nicki Minaj has expressed her support for US President Donald Trump, calling herself his \"number one fan\". She showcased her affiliation by sharing a photo of a gold card visa, which is an upgraded version of a standard green card. Meanwhile, Bruce Springsteen sparked controversy by protesting the presence of Immigration and Customs Enforcement (ICE) at a concert in New Jersey.",
+          "published_at": "May 22, 2026",
+          "summary": "Cuba is facing a crisis of fuel shortages and frequent power outages amid a deteriorating economic situation. The country's current leadership has been weakened by international pressure, including a recent US indictment charging the country's former leader, Ra\u00fal Castro, with murder. This development further strains Cuba's already fragile economy.",
           "relevance_score": 4
         }
       ]
     }
   },
-  "last_updated": "2026-01-30T14:14:12.820592",
+  "last_updated": "2026-05-22T10:08:03.715284",
   "timeframe": "7d",
   "rank_by_relevance": true,
   "version": "1.0"
